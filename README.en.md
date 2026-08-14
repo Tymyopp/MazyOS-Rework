@@ -1,4 +1,4 @@
-# MazyOS — The Operating System for Your Business (inside AI agents)
+# MazyOS-Rework — The Operating System for Your Business (inside AI agents)
 
 > Turn your business folder into an AI-operated hub for marketing, SEO, paid
 > ads, content and operations — in Brazilian Portuguese, for local businesses.
@@ -9,15 +9,15 @@ It runs inside Claude Code and any agent that supports the open skills format.
 
 ## Install
 ```bash
-git clone https://github.com/mazzeoia/MazyOS.git
-cd MazyOS
+git clone https://github.com/Tymyopp/MazyOS-Rework.git
+cd MazyOS-Rework
 claude        # then run /instalar (guided 5-minute interview)
 ```
 
 Or via marketplace (once published):
 ```
-/plugin marketplace add mazzeoia/MazyOS
-/plugin install mazyos
+/plugin marketplace add Tymyopp/MazyOS-Rework
+/plugin install mazyos-rework@mazyos-rework
 ```
 
 ## Skills (15)

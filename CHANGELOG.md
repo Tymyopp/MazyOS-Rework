@@ -6,11 +6,25 @@ Todas as mudanças notáveis do MazyOS.
 
 Todas as mudanças notáveis do MazyOS.
 
+## [1.6.1] — 2026-08-13
+
+### Corrigido — consistência de URLs (auditoria de READMEs)
+- Todas as referências de instalação/clone/plugin apontam agora para `Tymyopp/MazyOS-Rework`
+  (README.md, README.en.md, README.es.md, docs/guia-de-inicio.md, CHANGELOG)
+- Título dos READMEs padronizado como MazyOS-Rework
+- Contagem de skills corrigida em textos desatualizados (15 → 28)
+- `skills.json`: homepage aponta para o repositório do rework
+- `marketplace.json`: owner/author atualizados para Tymyopp
+- `SECURITY.md`: mantenedor do rework
+- `docs/premium.md`: distinção clara entre rework (MIT, comunitário) e oferta comercial do autor original
+- Skill `/instalar`: reconhece `MazyOS-Rework`/`mazyos-rework` como nome genérico de pasta
+- `docs/guia-de-inicio.md`: suporte aponta para issues do repositório
+
 ## [1.6.0] — 2026-08-13
 
 ### Adicionado — comunidade e go-to-market
 - **`SKILLS.md`** — manifesto central das 28 skills com versões e categorias (versionamento semver)
-- **`skills.json`** — metadata para publicação no skills.sh (Vercel): `npx skills add mazzeoia/MazyOS`
+- **`skills.json`** — metadata para publicação no skills.sh (Vercel): `npx skills add Tymyopp/MazyOS-Rework`
 - **`docs/guia-de-inicio.md`** — onboarding: instalação, primeira semana, rotina, armadilhas comuns
 - **`docs/FAQ.md`** — perguntas da comunidade (instalação, organização, custos)
 - **`docs/premium.md`** — modelo open source (MIT) × oferta comercial (aulas/suporte)
@@ -83,7 +97,7 @@ Todas as mudanças notáveis do MazyOS.
 ### Adicionado
 - `AGENTS.md` — contexto carregado automaticamente por Codex, Cursor, GitHub Copilot CLI, Google Antigravity e Gemini CLI
 - `.agents/skills/` — as 15 skills no local universal do padrão Agent Skills (agentskills.io)
-- `.claude-plugin/marketplace.json` — instalação via `/plugin marketplace add mazzeoia/MazyOS`
+- `.claude-plugin/marketplace.json` — instalação via `/plugin marketplace add Tymyopp/MazyOS-Rework`
 - `README.en.md` — versão em inglês
 - `scripts/sync-skills.sh` — sincroniza `.claude/skills/` ↔ `.agents/skills/`
 - `CLAUDE.md` — criação de skill agora exige rodar o sync

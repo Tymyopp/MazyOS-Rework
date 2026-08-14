@@ -1,4 +1,4 @@
-# MazyOS — El sistema operativo de tu negocio (dentro de agentes de IA)
+# MazyOS-Rework — El sistema operativo de tu negocio (dentro de agentes de IA)
 
 > 28 habilidades (skills) en portugués brasileño para marketing, SEO/GEO, anuncios,
 > contenido, conversión y ritmo operativo de pequeñas empresas y negocios locales.
@@ -6,11 +6,11 @@
 ## Instalar (Claude Code)
 
 ```
-/plugin marketplace add mazzeoia/MazyOS
-/plugin install mazyos@mazyos
+/plugin marketplace add Tymyopp/MazyOS-Rework
+/plugin install mazyos-rework@mazyos-rework
 ```
 
-O por clon: `git clone https://github.com/mazzeoia/MazyOS.git` → `cd MazyOS` → `claude` → `/instalar`.
+O por clon: `git clone https://github.com/Tymyopp/MazyOS-Rework.git` → `cd MazyOS-Rework` → `claude` → `/instalar`.
 
 **Otros agentes** (Codex, Cursor, Copilot CLI, Antigravity, Gemini): el contexto entra
 por `AGENTS.md` y las skills viven en `.agents/skills/` (estándar abierto Agent Skills).

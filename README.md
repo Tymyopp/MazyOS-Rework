@@ -1,12 +1,12 @@
-# MazyOS
+# MazyOS-Rework
 
-> O sistema operacional do seu negócio dentro do Claude Code.
+> O sistema operacional do seu negócio dentro de agentes de IA — evolução do MazyOS (mazzeoia).
 
 ![Licença](https://img.shields.io/badge/licença-MIT-green) · **28 skills** · [Agent Skills standard](https://agentskills.io) · PT-BR ([EN](README.en.md)) · [Roadmap](ROADMAP.md) · [Contribua](CONTRIBUTING.md)
 
 Você acaba de instalar o MazyOS. Em alguns minutos, sua empresa vai
 ter uma memória própria, uma identidade visual aplicada em tudo que
-o sistema gerar, e 15 skills prontas pra fazer marketing, SEO, ads
+o sistema gerar, e 28 skills prontas pra fazer marketing, SEO, ads
 e operação rodarem com você dirigindo.
 
 Bora voar.
@@ -22,7 +22,7 @@ Dois caminhos. Escolhe o que combina contigo.
 Abre o Claude Code em qualquer pasta e cola:
 
 ```
-Clona o https://github.com/mazzeoia/MazyOS.git na pasta atual,
+Clona o https://github.com/Tymyopp/MazyOS-Rework.git na pasta atual,
 entra nela e roda o /instalar.
 ```
 
@@ -32,8 +32,8 @@ só responde.
 ### Pelo terminal (mais previsível)
 
 ```
-git clone https://github.com/mazzeoia/MazyOS.git
-cd MazyOS
+git clone https://github.com/Tymyopp/MazyOS-Rework.git
+cd MazyOS-Rework
 code .
 ```
 
@@ -42,11 +42,11 @@ Na janela do VS Code que abrir: terminal integrado → `claude` → `/instalar`.
 ### Pelo plugin (Claude Code)
 
 ```
-/plugin marketplace add mazzeoia/MazyOS
-/plugin install mazyos@mazyos
+/plugin marketplace add Tymyopp/MazyOS-Rework
+/plugin install mazyos-rework@mazyos-rework
 ```
 
-Instala as 15 skills sem clonar manualmente.
+Instala as 28 skills sem clonar manualmente.
 
 ### Em outros agentes
 
@@ -59,7 +59,7 @@ Manter as duas pastas de skills sincronizadas: `./scripts/sync-skills.sh`
 
 ---
 
-Quando o `/instalar` terminar, renomeia a pasta `MazyOS/` pro nome do teu
+Quando o `/instalar` terminar, renomeia a pasta `MazyOS-Rework/` pro nome do teu
 negócio (fecha o VS Code, renomeia no Explorer/Finder, abre de novo). A
 pasta não fica como "MazyOS" — ela é o teu negócio agora.
 
@@ -164,4 +164,5 @@ versiona no GitHub, fica tudo seu.
 
 ## Quando precisar
 
-[mazzeoia.com.br](https://mazzeoia.com.br)
+Issues e suporte: [github.com/Tymyopp/MazyOS-Rework/issues](https://github.com/Tymyopp/MazyOS-Rework/issues)
+Autor original: [mazzeoia.com.br](https://mazzeoia.com.br)

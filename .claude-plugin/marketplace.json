@@ -1,26 +1,26 @@
 {
-  "name": "mazyos",
+  "name": "mazyos-rework",
   "owner": {
-    "name": "mazzeoia",
-    "url": "https://mazzeoia.com.br"
+    "name": "Tymyopp",
+    "url": "https://github.com/Tymyopp"
   },
   "metadata": {
-    "description": "MazyOS — sistema operacional do negócio: 15 skills de marketing, SEO, ads, conteúdo e operação em PT-BR.",
+    "description": "MazyOS-Rework — sistema operacional do negócio: 28 skills de marketing, SEO, ads, conteúdo, conversão e cadência operacional em PT-BR.",
     "version": "1.6.0"
   },
   "plugins": [
     {
-      "name": "mazyos",
+      "name": "mazyos-rework",
       "source": {
         "source": "github",
         "repo": "Tymyopp/MazyOS-Rework",
         "branch": "main"
       },
-      "description": "MazyOS — 28 skills: marketing, SEO, GEO, ads, conteúdo, conversão e cadência operacional.",
+      "description": "MazyOS-Rework — 28 skills: carrossel, seo, geo, cro, landing, email-sequencia, cold-email, anuncio-google, relatorio-ads, cadência (daily/weekly) e núcleo operacional.",
       "version": "1.6.0",
       "author": {
-        "name": "mazzeoia",
-        "url": "https://mazzeoia.com.br"
+        "name": "Tymyopp",
+        "url": "https://github.com/Tymyopp"
       },
       "license": "MIT",
       "category": "marketing",

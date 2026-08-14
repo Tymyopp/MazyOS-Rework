@@ -1,6 +1,6 @@
 # Modelo open source × oferta comercial
 
-Como o MazyOS se organiza entre o que é livre e o que é comercial — pra usuários
+Como o MazyOS-Rework se organiza entre o que é livre e o que é comercial — pra usuários
 e pra quem quer revender serviço.
 
 ## O que é open source (MIT — grátis)
@@ -12,7 +12,13 @@ Você pode:
 - Distribuir cópias (mantendo o aviso de copyright e a licença)
 - **Operar clientes com o sistema** (uso comercial do software é permitido)
 
-## O que o site oficial vende (mazzeoia.com.br)
+## A oferta comercial do autor original (mazzeoia.com.br)
+
+O MazyOS original tem oferta comercial no site oficial (aulas, templates avançados,
+suporte). Este repositório (MazyOS-Rework) é mantido pela comunidade e não tem
+oferta comercial própria — é MIT, sem custo.
+
+No site original você encontra:
 
 - Acesso com **aulas** (como aplicar cada skill no seu nicho)
 - **Templates avançados** e exemplos de clientes reais

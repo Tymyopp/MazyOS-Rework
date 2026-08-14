@@ -8,12 +8,12 @@ Escolha um caminho:
 
 ```bash
 # A) Claude Code (recomendado)
-/plugin marketplace add mazzeoia/MazyOS
-/plugin install mazyos@mazyos
+/plugin marketplace add Tymyopp/MazyOS-Rework
+/plugin install mazyos-rework@mazyos-rework
 
 # B) Clone manual
-git clone https://github.com/mazzeoia/MazyOS.git
-cd MazyOS
+git clone https://github.com/Tymyopp/MazyOS-Rework.git
+cd MazyOS-Rework
 claude   # → rode /instalar
 ```
 
@@ -76,4 +76,4 @@ O `/instalar` é uma conversa, não um formulário:
 
 - FAQ da comunidade: `docs/FAQ.md`
 - Modelo de uso e licença: `docs/premium.md`
-- Site oficial: https://mazzeoia.com.br
+- Issues do repositório: https://github.com/Tymyopp/MazyOS-Rework/issues

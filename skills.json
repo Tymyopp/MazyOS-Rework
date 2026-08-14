@@ -1,11 +1,11 @@
 {
   "$schema": "https://skills.sh/schema/skills.json",
-  "name": "mazyos",
-  "displayName": "MazyOS",
+  "name": "mazyos-rework",
+  "displayName": "MazyOS-Rework",
   "description": "Sistema operacional do negócio: 28 skills de marketing, SEO/GEO, ads, conteúdo, conversão e cadência operacional em PT-BR.",
   "author": "Tymyopp",
   "license": "MIT",
-  "homepage": "https://mazzeoia.com.br",
+  "homepage": "https://github.com/Tymyopp/MazyOS-Rework",
   "repository": "https://github.com/Tymyopp/MazyOS-Rework",
   "categories": [
     "marketing",

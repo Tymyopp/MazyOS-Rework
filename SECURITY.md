@@ -11,8 +11,11 @@ ou perda de dados.
 
 **NÃO abra issue pública** para vulnerabilidades. Use o canal privado:
 
-- **GitHub Security Advisory:** aba *Security* do repositório → *Report a vulnerability*
-- **E-mail:** informe-se com o mantenedor (mazzeoia.com.br)
+- **GitHub Security Advisory:** aba *Security* de `Tymyopp/MazyOS-Rework` → *Report a vulnerability*
+- **Issues:** https://github.com/Tymyopp/MazyOS-Rework/issues
+
+> Nota: o MazyOS original é de autoria de mazzeoia (mazzeoia.com.br). Este repositório
+> é o rework mantido por Tymyopp — vulnerabilidades específicas do rework vão para cá;
 
 ### Expectativas (SLA)
 
