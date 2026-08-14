@@ -39,6 +39,7 @@ marketing/
 ├── landing/                     páginas do /landing-page (<slug>-<data>/)
 ├── calendario/                  calendário editorial (/agendar)
 ├── relatorios/                  revisões semanais do /weekly
+├── perfil/                       bio e perfil do Instagram (/bio-instagram)
 └── avaliacoes-google/           histórico do /responder-avaliacoes (opcional)
 ```
 
@@ -58,6 +59,7 @@ marketing/
 - **`/landing-page`** → `landing/<slug>-<data>/`
 - **`/agendar`** → `calendario/calendario.md`
 - **`/weekly`** → `relatorios/weekly-<data>.md`
+- **`/bio-instagram`** → `perfil/instagram-bio-<data>.md`
 - **`/responder-avaliacoes`** → opcionalmente `avaliacoes-google/`
 
 ## Versionamento

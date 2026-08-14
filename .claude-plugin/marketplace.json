@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "MazyOS-Rework — sistema operacional do negócio: 28 skills de marketing, SEO, ads, conteúdo, conversão e cadência operacional em PT-BR.",
-    "version": "1.7.0"
+    "version": "1.8.0"
   },
   "plugins": [
     {
@@ -16,8 +16,8 @@
         "repo": "Tymyopp/MazyOS-Rework",
         "branch": "main"
       },
-      "description": "MazyOS-Rework — 29 skills: marketing, SEO/GEO, ads, conteúdo, conversão, cadência e integração com Instagram por link.",
-      "version": "1.7.0",
+      "description": "MazyOS-Rework — 30 skills: marketing, SEO/GEO, ads, conteúdo, conversão, cadência e integração Instagram (link, Reels, Stories, bio).",
+      "version": "1.8.0",
       "author": {
         "name": "Tymyopp",
         "url": "https://github.com/Tymyopp"
@@ -41,6 +41,7 @@
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/anuncio-google",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/aprovar-post",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/atualizar",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/bio-instagram",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/carrossel",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/cliente",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/cold-email",

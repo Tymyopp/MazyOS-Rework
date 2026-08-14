@@ -8,7 +8,7 @@ da IA pura (gerar imagem, postar em rede social, renderizar HTML em PNG).
 | Script | Uso | Dependências |
 |---|---|---|
 | `gerar-imagem.js` | Gera foto IA (DALL-E 3) e salva PNG — `/carrossel` | `OPENAI_API_KEY` · Node 20+ (fetch nativo) |
-| `postar-instagram.js` | Publica carrossel no Instagram via Meta Graph API — `/aprovar-post` | `META_PAGE_ACCESS_TOKEN`, `META_IG_USER_ID`, `SITE_URL` · Node 20+ |
+| `postar-instagram.js` | Publica carrossel, imagem, Reel ou Story no Instagram (Graph API) — `/aprovar-post` | token de `.local/insta-auth.json` (ou `.env`) · `SITE_URL` · Node 20+ |
 | `postar-facebook.js` | Publica carrossel no Facebook via Meta Graph API — `/aprovar-post` | `META_PAGE_ACCESS_TOKEN`, `META_PAGE_ID`, `SITE_URL` · Node 20+ |
 | `render-carrossel.js` | Template padrão de render HTML → PNG 1080×1350 (as skills copiam como `render.js` para a pasta do conteúdo) | Playwright |
 | `sync-skills.sh` | Sincroniza `.claude/skills/` ↔ `.agents/skills/` | bash |

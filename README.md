@@ -110,11 +110,12 @@ de tráfego orgânico.
 `/video-curto` entrega roteiro de Reels/TikTok (gancho de 3s, texto em tela) ·
 `/cliente` mantém o CRM mínimo em `_memoria/clientes.md`.
 
-**Integração com Instagram (v1.7)**
+**Integração com Instagram (v1.7-v1.8)**
 `/conectar-instagram` conecta sua conta por **link de autorização** (Meta em modo
 desenvolvimento, sem app review) · token de 60 dias com renovação automática ·
-`/aprovar-post` publica carrosséis usando a conexão · setup guiado em
-`docs/automacao-meta-setup.md`.
+`/aprovar-post` publica **carrossel, imagem, Reel ou Story** · `/bio-instagram`
+gera bio, destaques e link na bio · MCP opcional com dezenas de ferramentas
+(`docs/mcp-instagram.md`) · setup guiado em `docs/automacao-meta-setup.md`.
 
 **Cadência operacional (v1.5)** — o closed-loop rodando sozinho
 `/daily` abre o dia com pendências, posts agendados e alertas de ads · `/weekly`

@@ -15,7 +15,8 @@ Fases de evolução definidas no benchmark contra o ecossistema global de skills
 **Legenda:** ✅ feito · 📦 preparado (artefatos no workspace) · ⏳ pendente
 
 | **G** | Integração social por link — /conectar-instagram, script OAuth, guia Meta (F0-F2) | ✅ 13/08/2026 (F0-F2) |
-| **G** | Publicação completa (Reels/Stories), /bio-instagram, agendamento, TikTok, insights (F3-F8) | ⏳ pendente |
+| **G** | Publicação completa — Reels, Stories, imagem única, MCP opcional, /bio-instagram (F3-F5) | ✅ 13/08/2026 |
+| **G** | Agendamento real, TikTok, insights (F6-F8) | ⏳ pendente |
 
 > Fases A–G: ver CHANGELOG. Próximos: F3 (Reels/Stories no /aprovar-post),
 > F5 (/bio-instagram), F6-F8 (agendamento, TikTok, insights).

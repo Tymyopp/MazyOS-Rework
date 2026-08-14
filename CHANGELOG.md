@@ -20,6 +20,28 @@ Todas as mudanças notáveis do MazyOS.
 - Skill `/instalar`: reconhece `MazyOS-Rework`/`mazyos-rework` como nome genérico de pasta
 - `docs/guia-de-inicio.md`: suporte aponta para issues do repositório
 
+## [1.8.0] — 2026-08-13
+
+### Adicionado — Instagram completo (Fases 3-5 do plano de integração)
+- **`scripts/postar-instagram.js`** — suporte a 4 tipos de publicação: carrossel
+  (padrão), imagem única, **Reel** (`--tipo reel --video URL [--capa URL]`) e
+  **Story** (`--tipo story`), além de `--legenda` alternativo
+- **`/aprovar-post`** — documenta os 4 tipos de publicação com exemplos
+- **MCP opcional (Fase 4):**
+  - `.mcp.example.json` — modelo pronto (meta-mcp-server via npx)
+  - `docs/mcp-instagram.md` — guia de ativação + comparação dos 5 servidores MCP
+    pesquisados (meta-mcp-server 200+ tools, meta-mcp 57, instagram-mcp 24,
+    supercorp auth_url, Meta oficial)
+  - `templates/ferramentas/catalogo.md` — seção "MCPs de redes sociais"
+- **`/bio-instagram`** — bio otimizada (≤150 caracteres, 3 opções no tom da marca),
+  nome de exibição, link na bio com estratégia de rotatividade, 4-6 destaques com
+  capa na paleta do design-guide e análise da grade do feed. Saída em
+  `marketing/perfil/instagram-bio-<data>.md` (com aviso de colagem manual — a API
+  não edita perfil)
+
+### Corrigido
+- `marketing/README.md` — pasta `perfil/` documentada
+
 ## [1.7.0] — 2026-08-13
 
 ### Adicionado — integração do Instagram por link (Fases 0-2 do plano de integração)

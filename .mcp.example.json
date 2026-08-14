@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "instagram": {
+      "command": "npx",
+      "args": ["-y", "meta-mcp-server"],
+      "env": {
+        "META_ACCESS_TOKEN": "${META_PAGE_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

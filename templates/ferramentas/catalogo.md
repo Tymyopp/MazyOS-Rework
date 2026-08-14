@@ -174,6 +174,26 @@ claude mcp add n8n -- npx -y n8n-mcp
 
 ---
 
+---
+
+## MCPs de redes sociais (Instagram/Threads/Meta)
+
+Servidores MCP que dão ao agente ferramentas diretas de publicação, comentários,
+DMs e insights. Guia completo: `docs/mcp-instagram.md`. Ativar é opcional — os
+scripts do MazyOS (`/conectar-instagram`, `postar-instagram.js`) já publicam sem MCP.
+
+| Servidor | Tools | Uso |
+|---|---|---|
+| `meta-mcp-server` (npm) | 200+ | Meta completo: IG, Threads, FB Pages, Ads, Insights — `npx -y meta-mcp-server` |
+| `meta-mcp` (mikusnuz) | 57 | IG + Threads (foto, vídeo, carrossel, Reel, Story, comentários) |
+| `instagram-mcp` (AleemHaider) | 24 | Publicação, comentários, DMs, insights |
+| `supercorp-ai/instagram-mcp` | 4 | `auth_url` + `exchange_auth_code` — fluxo de conexão por link |
+| Meta oficial (`mcp.facebook.com/ads`) | 29 | MCP first-party da Meta (anúncios) |
+
+**Configurar:** copiar `.mcp.example.json` → `.mcp.json` e seguir `docs/mcp-instagram.md`.
+**Segurança:** token no `env` do `.mcp.json` é sensível — não commitar.
+
+
 ## Como adicionar ferramentas novas
 
 Se voce usa uma API ou ferramenta que nao esta nessa lista, adicione aqui seguindo o formato:

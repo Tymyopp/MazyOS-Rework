@@ -113,6 +113,18 @@ node --env-file=.env scripts/postar-instagram.js marketing/conteudo/<slug>-<data
 > O script usa o token de `.local/insta-auth.json` (conectado via `/conectar-instagram`)
 > ou de `META_PAGE_ACCESS_TOKEN` no `.env`.
 
+**Tipos de publicação (mesma conexão):**
+- Carrossel (padrão): `--tipo carrossel` — os slides de `instagram/`
+- Imagem única: `--tipo imagem [--imagem URL]` (padrão: slide-01)
+- Reel: `--tipo reel --video <URL.mp4> [--capa URL]` — vídeo hospedado em URL pública
+- Story: `--tipo story [--imagem URL | --video URL]`
+- Legenda alternativa: `--legenda <arquivo.md>`
+
+Exemplo:
+```bash
+node --env-file=.env scripts/postar-instagram.js marketing/conteudo/<slug>-<data> --tipo reel --video "https://site.com.br/videos/reel.mp4"
+```
+
 Capturar o post id retornado. Se falhar, **não seguir pra Facebook** — relatar e parar.
 
 ### Passo 8 — Postar no Facebook
