@@ -2,6 +2,8 @@
 
 > O sistema operacional do seu negócio dentro do Claude Code.
 
+**Status:** ativo · **Licença:** [MIT](LICENSE) · **Skills:** 15 · **Idioma:** PT-BR · **Roadmap:** [ROADMAP.md](ROADMAP.md) · **Contribua:** [CONTRIBUTING.md](CONTRIBUTING.md)
+
 Você acaba de instalar o MazyOS. Em alguns minutos, sua empresa vai
 ter uma memória própria, uma identidade visual aplicada em tudo que
 o sistema gerar, e 15 skills prontas pra fazer marketing, SEO, ads

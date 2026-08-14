@@ -1,4 +1,4 @@
-﻿---
+---
 name: instalar
 description: >
   Instala o MazyOS no negócio do usuário. Entrevista sobre empresa, tom de voz,

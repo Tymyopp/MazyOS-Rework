@@ -1,0 +1,35 @@
+name: 💡 Sugestão / skill nova
+description: Proponha uma capacidade nova para o MazyOS
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "Ideias de skills novas, melhorias em skills existentes ou novos fluxos de operação."
+  - type: textarea
+    id: problema
+    attributes:
+      label: O que você quer resolver?
+      description: Descreva a tarefa/rotina que o MazyOS deveria cobrir
+    validations:
+      required: true
+  - type: textarea
+    id: solucao
+    attributes:
+      label: Solução proposta
+      description: Como o MazyOS deveria se comportar (input → output)
+    validations:
+      required: true
+  - type: dropdown
+    id: categoria
+    attributes:
+      label: Categoria
+      multiple: true
+      options:
+        - Núcleo / operação
+        - Conteúdo e redes sociais
+        - SEO / GEO
+        - Anúncios pagos
+        - Produção (dados, email)
+        - Outro
+    validations:
+      required: false

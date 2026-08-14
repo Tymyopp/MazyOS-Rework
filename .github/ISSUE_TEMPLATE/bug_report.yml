@@ -1,0 +1,48 @@
+name: 🐛 Relatório de bug
+description: Reporte um problema com uma skill do MazyOS
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Obrigado por reportar! Quanto mais completo o relatório, mais rápido a correção."
+  - type: input
+    id: skill
+    attributes:
+      label: Skill afetada
+      description: Qual skill apresentou o problema?
+      placeholder: "/carrossel"
+    validations:
+      required: true
+  - type: input
+    id: ambiente
+    attributes:
+      label: Ambiente
+      description: Agente (Claude Code, Codex...), sistema operacional e versão do projeto
+      placeholder: "Claude Code 2.x · macOS · main"
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição do problema
+      description: O que aconteceu? O que era esperado?
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos para reproduzir
+      description: Liste os passos, incluindo o prompt usado
+      placeholder: |
+        1. Rodei /carrossel com o tema "X"
+        2. ...
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / saída
+      description: Cole a saída relevante do terminal
+      render: shell
+    validations:
+      required: false
