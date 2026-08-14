@@ -3,7 +3,7 @@
 > Turn your business folder into an AI-operated hub for marketing, SEO, paid
 > ads, content and operations — in Brazilian Portuguese, for local businesses.
 
-MazyOS is a set of 30 agent skills (plain Markdown, Agent Skills standard) plus
+MazyOS is a set of 33 agent skills (plain Markdown, Agent Skills standard) plus
 a memory system (`_memoria/`), brand identity (`identidade/`) and templates.
 It runs inside Claude Code and any agent that supports the open skills format.
 

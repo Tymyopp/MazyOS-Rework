@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "MazyOS-Rework — sistema operacional do negócio: 28 skills de marketing, SEO, ads, conteúdo, conversão e cadência operacional em PT-BR.",
-    "version": "1.8.0"
+    "version": "1.9.0"
   },
   "plugins": [
     {
@@ -16,8 +16,8 @@
         "repo": "Tymyopp/MazyOS-Rework",
         "branch": "main"
       },
-      "description": "MazyOS-Rework — 30 skills: marketing, SEO/GEO, ads, conteúdo, conversão, cadência e integração Instagram (link, Reels, Stories, bio).",
-      "version": "1.8.0",
+      "description": "MazyOS-Rework — 33 skills: marketing, SEO/GEO, ads, conteúdo, conversão, cadência e integrações sociais (Instagram por link, TikTok, agendamento, insights).",
+      "version": "1.9.0",
       "author": {
         "name": "Tymyopp",
         "url": "https://github.com/Tymyopp"
@@ -36,6 +36,7 @@
       "skills": [
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/abrir",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/agendar",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/agendar-posts",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/analisar-dados",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/analytics",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/anuncio-google",
@@ -51,10 +52,12 @@
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/email-profissional",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/email-sequencia",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/experimento",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/insta-insights",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/instalar",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/landing-page",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/mapear-rotinas",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/novo-projeto",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/postar-tiktok",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/programatic-seo",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/publicar-tema",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/relatorio-ads",

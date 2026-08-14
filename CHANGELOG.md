@@ -20,6 +20,25 @@ Todas as mudanças notáveis do MazyOS.
 - Skill `/instalar`: reconhece `MazyOS-Rework`/`mazyos-rework` como nome genérico de pasta
 - `docs/guia-de-inicio.md`: suporte aponta para issues do repositório
 
+## [1.9.0] — 2026-08-13
+
+### Adicionado — agendamento, TikTok e insights (Fases 6-8 do plano de integração)
+- **`/agendar-posts`** — agenda publicações REAIS em data futura (Postiz self-host
+  com API pública ou Post for Me com scheduling); liga o calendário (/agendar) à
+  publicação automática
+- **`docs/agendamento.md`** — guia das duas opções (Postiz Docker vs Post for Me),
+  comandos curl de exemplo e tabela de comparação
+- **`/postar-tiktok`** + **`scripts/postar-tiktok.js`** — publicação de vídeo no
+  TikTok via Content Posting API (Direct Post): upload, título/legenda/privacidade,
+  acompanhamento de status; sandbox = privado, público exige auditoria
+- **`docs/tiktok-setup.md`** — passo a passo (app, scopes, OAuth, .env, sandbox vs público)
+- **`/insta-insights`** + **`scripts/insta-insights.js`** — métricas do Instagram
+  (alcance, impressões, perfil visto, contas engajadas, tendência de seguidores,
+  posts recentes) com auto-renovação de token
+- **`_memoria/kpi.md`** — novas linhas "Alcance IG (7d)" e "Seguidores IG"
+- **`/weekly`** — passa a incorporar o relatório do /insta-insights
+- **`.env.example`** — POSTIZ_URL/API_KEY, POSTFORME_API_KEY, TIKTOK_*
+
 ## [1.8.0] — 2026-08-13
 
 ### Adicionado — Instagram completo (Fases 3-5 do plano de integração)

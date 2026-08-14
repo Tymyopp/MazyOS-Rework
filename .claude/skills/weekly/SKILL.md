@@ -22,6 +22,7 @@ o que ajustar — e o painel KPI atualizado pra semana seguinte.
 - **Métricas:** `_memoria/kpi.md` (painel — atualizado aqui)
 - **Ads:** último relatório em `marketing/campanhas/relatorios/` (gerado por /relatorio-ads)
 - **Tráfego:** `marketing/seo/analytics-*.md` se existir (gerado por /analytics)
+- **Instagram:** `marketing/relatorios/insta-insights-*.md` se existir (gerado por /insta-insights)
 - **Clientes:** `_memoria/clientes.md` (novos clientes da semana)
 - **Conteúdo:** pastas em `marketing/conteudo/` com data da semana
 - **Testes:** `_memoria/experimentos.md`

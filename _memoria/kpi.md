@@ -15,6 +15,8 @@
 | Frequência (Meta) | sem dado | sem dado | | — |
 | Nota Google (avaliações) | sem dado | sem dado | | — |
 | Clientes novos | sem dado | sem dado | | — |
+| Alcance IG (7d) | sem dado | sem dado | | — |
+| Seguidores IG | sem dado | sem dado | | — |
 
 **Atualizado em:** —
 
@@ -22,4 +24,5 @@
 
 - Δ: ▲ subiu · ▼ caiu · — estável/sem dado
 - "sem dado" é resposta válida — prefira honestidade a número inventado
-- Fontes: /relatorio-ads (ads), /analytics (orgânico), /cliente (clientes), contas da casa (receita)
+- Fontes: /relatorio-ads (ads), /analytics (orgânico), /cliente (clientes), contas da casa (receita),
+  /insta-insights (Instagram)

@@ -114,8 +114,11 @@ de tráfego orgânico.
 `/conectar-instagram` conecta sua conta por **link de autorização** (Meta em modo
 desenvolvimento, sem app review) · token de 60 dias com renovação automática ·
 `/aprovar-post` publica **carrossel, imagem, Reel ou Story** · `/bio-instagram`
-gera bio, destaques e link na bio · MCP opcional com dezenas de ferramentas
-(`docs/mcp-instagram.md`) · setup guiado em `docs/automacao-meta-setup.md`.
+gera bio, destaques e link na bio · `/agendar-posts` agenda em data futura
+(Postiz/Post for Me) · `/postar-tiktok` publica vídeos no TikTok ·
+`/insta-insights` puxa métricas pro KPI · MCP opcional (`docs/mcp-instagram.md`) ·
+setups guiados em `docs/automacao-meta-setup.md`, `docs/tiktok-setup.md`,
+`docs/agendamento.md`.
 
 **Cadência operacional (v1.5)** — o closed-loop rodando sozinho
 `/daily` abre o dia com pendências, posts agendados e alertas de ads · `/weekly`

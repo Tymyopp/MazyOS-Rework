@@ -136,6 +136,23 @@ Skills nativas adicionadas após a primeira versão — já instaladas no sistem
 
 ---
 
+---
+
+## Integrações sociais (v1.9)
+
+Skills de conexão com plataformas — ver `docs/` correspondentes:
+
+- **/conectar-instagram** — conexão por link (OAuth) + token 60 dias com renovação
+- **/aprovar-post** — publica carrossel, imagem, Reel ou Story no Instagram
+- **/bio-instagram** — bio, destaques, link na bio e grade (colagem manual)
+- **/agendar-posts** — agendamento real (Postiz self-host ou Post for Me)
+- **/postar-tiktok** — publicação de vídeo no TikTok (Content Posting API)
+- **/insta-insights** — métricas do Instagram que alimentam o KPI e o /weekly
+
+Docs: `docs/automacao-meta-setup.md` (Meta), `docs/tiktok-setup.md` (TikTok),
+`docs/agendamento.md` (agendadores), `docs/mcp-instagram.md` (MCPs).
+
+
 ## Cadência operacional (v1.5)
 
 Skills de ritmo semanal — o closed-loop rodando sozinho:
