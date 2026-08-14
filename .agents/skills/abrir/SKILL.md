@@ -39,7 +39,10 @@ Pronto. O que vamos fazer?
 4. Ler `_memoria/tarefas.md` (se existir) e incluir no resumo a linha
    `Pendências: N em aberto` com as 1-2 mais importantes.
 
-5. Não listar quais arquivos foram lidos. Não confirmar leitura. Só usar o contexto.
+5. Se o usuário quiser o briefing completo do dia (posts agendados, alertas de ads,
+   experimentos ativos, prioridade sugerida), apontar pra skill `/daily`.
+
+6. Não listar quais arquivos foram lidos. Não confirmar leitura. Só usar o contexto.
 
 ## Regras
 

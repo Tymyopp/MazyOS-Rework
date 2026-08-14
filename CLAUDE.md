@@ -89,6 +89,9 @@ Se sim, identificar o que atualizar:
 - **Visual (cores, fontes, logo)** → `identidade/design-guide.md`
 - **Pendências e próximos passos** → `_memoria/tarefas.md`
 - **Cliente novo ou compra (quem, o quê, valor, quando seguir)** → `_memoria/clientes.md` (skill `/cliente`)
+- **Métricas da semana (receita, leads, CPA, CTR...)** → `_memoria/kpi.md` (skill `/weekly`)
+- **Testes e experimentos (hipótese → veredito)** → `_memoria/experimentos.md` (skill `/experimento`)
+- **Agenda de conteúdo (o que publicar quando)** → `marketing/calendario/calendario.md` (skill `/agendar`)
 
 Mostrar o que vai mudar antes de salvar. Não reformatar o arquivo
 inteiro, só adicionar ou editar a linha relevante.

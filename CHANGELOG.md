@@ -6,6 +6,24 @@ Todas as mudanças notáveis do MazyOS.
 
 Todas as mudanças notáveis do MazyOS.
 
+## [1.5.0] — 2026-08-13
+
+### Adicionado — cadência operacional (total: 28 skills)
+- **/daily** — briefing do dia: pendências, posts agendados, alertas de ads, experimentos vencendo, prioridade sugerida
+- **/weekly** — revisão semanal (operating review): feito × métricas × ajustes, atualiza KPI, vereditos de experimentos
+- **/experimento** — registro de testes com hipótese (se-então-porque), métrica única, prazo e veredito com evidência
+- **/agendar** — calendário de conteúdo (frequência por canal, status planejado → pronto → publicado)
+
+### Adicionado — arquivos de apoio
+- **`_memoria/kpi.md`** — painel de 5-8 métricas atualizado pelo /weekly (valor real ou "sem dado")
+- **`_memoria/experimentos.md`** — registro de experimentos ativos/concluídos
+- **`marketing/calendario/calendario.md`** — calendário editorial por semana
+
+### Melhorado
+- **/abrir** — sugere /daily para briefing completo do dia
+- **CLAUDE.md** — regras de memória para kpi, experimentos e calendário
+- **catálogo, marketplace.json (28 skills), README, README.en** — atualizados
+
 ## [1.4.0] — 2026-08-13
 
 ### Adicionado — 9 skills novas (total: 24)

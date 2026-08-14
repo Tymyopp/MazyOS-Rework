@@ -9,7 +9,7 @@ Fases de evolução definidas no benchmark contra o ecossistema global de skills
 | **B** | Portabilidade multi-agente — AGENTS.md, .agents/skills, plugin marketplace, README.en, sync-skills.sh | ✅ 13/08/2026 |
 | **C** | Arquitetura de skills — frontmatter completo, quality gates, scripts versionados, hooks, task store, CI | ✅ 13/08/2026 |
 | **D** | Profundidade de marketing — 9 skills novas (cro, landing, email-sequencia, cold-email, seo-audit, programatic-seo, analytics, video-curto, cliente) + GEO com dados | ✅ 13/08/2026 |
-| **E** | Operação e cadência — /daily, /weekly, /experimento, KPI.md, task store | ⏳ pendente |
+| **E** | Operação e cadência — /daily, /weekly, /experimento, /agendar, KPI.md | ✅ 13/08/2026 |
 | **F** | Comunidade e go-to-market — skills.sh, plugin oficial, docs, telemetria | ⏳ pendente |
 
 **Legenda:** ✅ feito · 📦 preparado (artefatos no workspace) · ⏳ pendente

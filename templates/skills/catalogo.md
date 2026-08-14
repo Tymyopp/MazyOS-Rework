@@ -134,6 +134,20 @@ Skills nativas adicionadas após a primeira versão — já instaladas no sistem
 - **/cliente** — CRM mínimo em `_memoria/clientes.md` (registro + follow-up)
 
 
+---
+
+## Cadência operacional (v1.5)
+
+Skills de ritmo semanal — o closed-loop rodando sozinho:
+
+- **/daily** — briefing do dia: pendências, posts agendados, alertas de ads, experimentos vencendo, prioridade sugerida
+- **/weekly** — revisão semanal: o que foi feito, métricas vs anterior, vereditos de experimentos, ações da próxima semana
+- **/experimento** — registro de testes com hipótese, métrica única, prazo e veredito com evidência
+- **/agendar** — calendário de conteúdo (frequência por canal, temas da estratégia, status planejado → pronto → publicado)
+
+Arquivos de apoio: `_memoria/kpi.md` (painel), `_memoria/experimentos.md`, `marketing/calendario/calendario.md`.
+
+
 ## Como adicionar skills novas a este catalogo
 
 Se voce testou uma skill e quer adicionar aqui pra referencia futura:

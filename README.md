@@ -2,7 +2,7 @@
 
 > O sistema operacional do seu negócio dentro do Claude Code.
 
-![Licença](https://img.shields.io/badge/licença-MIT-green) · **24 skills** · [Agent Skills standard](https://agentskills.io) · PT-BR ([EN](README.en.md)) · [Roadmap](ROADMAP.md) · [Contribua](CONTRIBUTING.md)
+![Licença](https://img.shields.io/badge/licença-MIT-green) · **28 skills** · [Agent Skills standard](https://agentskills.io) · PT-BR ([EN](README.en.md)) · [Roadmap](ROADMAP.md) · [Contribua](CONTRIBUTING.md)
 
 Você acaba de instalar o MazyOS. Em alguns minutos, sua empresa vai
 ter uma memória própria, uma identidade visual aplicada em tudo que
@@ -109,6 +109,13 @@ de tráfego orgânico.
 **Conteúdo e operação (v1.4)**
 `/video-curto` entrega roteiro de Reels/TikTok (gancho de 3s, texto em tela) ·
 `/cliente` mantém o CRM mínimo em `_memoria/clientes.md`.
+
+**Cadência operacional (v1.5)** — o closed-loop rodando sozinho
+`/daily` abre o dia com pendências, posts agendados e alertas de ads · `/weekly`
+fecha a semana: métricas vs anterior, vereditos de experimentos e ações da próxima
+semana, atualizando o painel `_memoria/kpi.md` · `/experimento` registra testes com
+hipótese, métrica única e veredito com evidência · `/agendar` mantém o calendário
+de conteúdo em `marketing/calendario/calendario.md`.
 
 ---
 

@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "MazyOS — sistema operacional do negócio: 15 skills de marketing, SEO, ads, conteúdo e operação em PT-BR.",
-    "version": "1.4.0"
+    "version": "1.5.0"
   },
   "plugins": [
     {
@@ -16,8 +16,8 @@
         "repo": "mazzeoia/MazyOS",
         "branch": "main"
       },
-      "description": "MazyOS — 24 skills: carrossel, seo, geo, cro, landing, email-sequencia, cold-email, anuncio-google, relatorio-ads e núcleo operacional.",
-      "version": "1.4.0",
+      "description": "MazyOS — 28 skills: marketing, SEO, GEO, ads, conteúdo, conversão e cadência operacional.",
+      "version": "1.5.0",
       "author": {
         "name": "mazzeoia",
         "url": "https://mazzeoia.com.br"
@@ -35,6 +35,7 @@
       ],
       "skills": [
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/abrir",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/agendar",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/analisar-dados",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/analytics",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/anuncio-google",
@@ -44,8 +45,10 @@
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/cliente",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/cold-email",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/cro",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/daily",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/email-profissional",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/email-sequencia",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/experimento",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/instalar",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/landing-page",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/mapear-rotinas",
@@ -57,7 +60,8 @@
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/salvar",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/seo",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/seo-audit",
-        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/video-curto"
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/video-curto",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/weekly"
       ]
     }
   ]
