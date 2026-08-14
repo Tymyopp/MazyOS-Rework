@@ -2,16 +2,15 @@
   "mcpServers": {
     "meta": {
       "command": "npx",
-      "args": ["-y", "meta-mcp-server"],
+      "args": ["-y", "@oliverames/meta-mcp-server"],
       "env": {
         "META_ACCESS_TOKEN": "${META_PAGE_ACCESS_TOKEN}",
         "INSTAGRAM_USER_ID": "${META_IG_USER_ID}"
       }
     },
-    "whatsapp": {
-      "command": "npx",
-      "args": ["-y", "@delltrak/wa-mcp"],
-      "env": { "WHATSAPP_CHANNEL": "cloud-api", "WHATSAPP_TOKEN": "${WHATSAPP_TOKEN}" }
+    "openwa": {
+      "url": "http://localhost:2785/mcp",
+      "headers": { "X-API-Key": "${OPENWA_API_KEY}" }
     },
     "youtube": {
       "command": "youtube-uploader-mcp",
@@ -21,11 +20,6 @@
       "command": "npx",
       "args": ["-y", "@pegasusheavy/linkedin-mcp"],
       "env": { "LINKEDIN_ACCESS_TOKEN": "${LINKEDIN_ACCESS_TOKEN}" }
-    },
-    "multiplataforma": {
-      "command": "npx",
-      "args": ["-y", "ayrshare-mcp"],
-      "env": { "AYRSHARE_API_KEY": "${AYRSHARE_API_KEY}" }
     }
   }
 }

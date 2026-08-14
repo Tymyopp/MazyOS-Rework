@@ -37,7 +37,7 @@ e a publicação real no feed (site + Instagram + Facebook).
 - Página FB com permissões corretas no Meta App
 - Scripts `scripts/postar-instagram.js` e `scripts/postar-facebook.js` configurados
 
-Se algo disso faltar: parar e apontar pro guia de setup (criar `marketing/automacao-meta-setup.md` se ainda não existir).
+Se algo disso faltar: parar e apontar pro guia de setup (`docs/automacao-meta-setup.md` — ou o fluxo por link da skill `/conectar-instagram`).
 
 ## Argumento
 
@@ -137,7 +137,8 @@ Capturar o post id retornado.
 
 ### Passo 9 — LinkedIn
 
-LinkedIn é manual por enquanto (API de empresa precisa de aprovação demorada). Mostrar pro usuário:
+Se a integração estiver ativa (`/postar-linkedin` + token OAuth), publicar o texto de
+`legenda-linkedin.md` via MCP. Senão, mostrar pro usuário:
 
 ```
 LinkedIn: cole esse texto manualmente em https://linkedin.com/in/<seu-perfil>:
@@ -153,7 +154,7 @@ Mostrar:
 Site:        <SITE_URL>/blog/<slug>/
 Instagram:   <link do post>
 Facebook:    <link do post>
-LinkedIn:    pendente — texto pronto em legenda-linkedin.md (postar manual)
+LinkedIn:    <link do post> (via /postar-linkedin) ou pendente — texto pronto em legenda-linkedin.md
 ```
 
 ### Passo 10 (opcional) — Cross-post multi-plataforma

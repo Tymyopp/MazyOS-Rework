@@ -6,6 +6,26 @@ Todas as mudanças notáveis do MazyOS.
 
 Todas as mudanças notáveis do MazyOS.
 
+## [2.2.0] — 2026-08-14
+
+### Concluído — lacunas de implementação (auditoria)
+- **`scripts/agendar-postforme.js`** (novo) — agendamento real via Post for Me:
+  `schedule` com slug→mídia+legenda, `--listar-contas`, `--listar-agendados`, `--cancelar`.
+  Substitui a instrução "criar o script" que existia na skill `/agendar-posts`
+- **`scripts/cron-posts.js`** (ampliado) — agora cobre **WhatsApp** (via whatsapp-openwa.js)
+  e trata **LinkedIn/YouTube** honestamente: avisa que exigem MCP e mantém "agendado"
+  (sem marcar publicado falsamente)
+- **`/aprovar-post`** (corrigido) — caminho do guia Meta (`docs/automacao-meta-setup.md`,
+  não `marketing/...`) e **LinkedIn agora via `/postar-linkedin`** (não mais "manual")
+- **`.mcp.example.*.json`** (corrigidos) — pacotes **verificados no npm**: 
+  `@oliverames/meta-mcp-server` (o `meta-mcp-server` do npm é outro projeto!),
+  `@pegasusheavy/linkedin-mcp`; WhatsApp agora usa o **MCP nativo do OpenWA**;
+  YouTube/Ayrshare documentados com instalação real (binário Go / pip do source)
+- **`scripts/check-integracao.js`** (novo) — diagnóstico completo: .env, Instagram
+  (token+validade), Meta App, OpenWA (com status das sessões), TikTok, LinkedIn,
+  YouTube, agendadores, .mcp.json e scripts — reporta ✓/⚠/✗
+- **`docs/mcp-catalogo.md`** — seção "instalação real verificada" + regra de verificação npm
+
 ## [2.1.1] — 2026-08-14
 
 ### Adicionado

@@ -70,7 +70,7 @@ OAuth autorizado — nunca browser automation** (viola termos).
 
 | Servidor | Tools | Instalação | Nível |
 |---|---|---|---|
-| **anwerj/youtube-uploader-mcp** | 6 | `curl -fsSL .../install.sh \| bash` | 1+2 |
+| **anwerj/youtube-uploader-mcp** | 6 | `curl -fsSL .../install.sh | bash` | 1+2 |
 
 **Env:** `client_secret.json` (Google Cloud OAuth — local, LLM nunca vê o segredo).
 Upload com título/descrição/tags, Shorts, agendamento, multi-canal, grátis.
@@ -108,6 +108,21 @@ Upload com título/descrição/tags, Shorts, agendamento, multi-canal, grátis.
 Ver `docs/automacao-n8n.md` para fluxos prontos.
 
 ---
+
+## Instalação real verificada (nomes corretos — 14/08/2026)
+
+| Servidor | Instalação VERDADEIRA | Nota |
+|---|---|---|
+| Meta (oliverames) | `npx -y @oliverames/meta-mcp-server` | ✅ npm verificado (v2.x) — NÃO usar `meta-mcp-server` (é outro pacote) |
+| Meta (mikusnuz) | `npx -y @mikusnuz/meta-mcp` | ✅ npm verificado |
+| LinkedIn | `npx -y @pegasusheavy/linkedin-mcp` | ✅ npm verificado |
+| WhatsApp | **MCP nativo do OpenWA**: `POST /mcp` (X-API-Key) | ✅ já integrado — usar o gateway |
+| YouTube | binário Go via `curl -fsSL https://raw.githubusercontent.com/anwerj/youtube-uploader-mcp/master/scripts/install.sh | bash` | ❌ NÃO é npm — instala o binário `youtube-uploader-mcp` no PATH |
+| Ayrshare | repo `vanman2024/ayrshare-mcp` → `pip install -e .` | ❌ NÃO é npm nem PyPI — instalar do source (Python) |
+| WA MCP (delltrak) | — | ❌ repo removido — não usar; preferir OpenWA |
+
+> Regra: **sempre verificar no npm** (`curl -s https://registry.npmjs.org/<pacote>`) antes de
+> colocar um comando `npx -y` em `.mcp.json` — nomes podem colidir ou morrer.
 
 ## Teste rápido
 

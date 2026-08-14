@@ -49,8 +49,9 @@ curl -X POST https://api.postforme.dev/api/schedule \
   }'
 ```
 
-(Endpoint pode variar — conferir docs.postforme.dev; a skill usa `scripts/agendar-postforme.js`
-que encapsula a chamada e pode ser ajustado.)
+(O script `scripts/agendar-postforme.js` encapsula a chamada — rodar:
+`node --env-file=.env scripts/agendar-postforme.js <slug> --data "2026-08-20T10:00:00-03:00"`
+Outras opções: `--listar-contas`, `--listar-agendados`, `--cancelar <id>`.)
 
 ## Qual escolher?
 
