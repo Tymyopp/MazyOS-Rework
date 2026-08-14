@@ -6,6 +6,23 @@ Todas as mudanças notáveis do MazyOS.
 
 Todas as mudanças notáveis do MazyOS.
 
+## [2.3.0] — 2026-08-14
+
+### Adicionado — transferência de padrões do The-ALL (Fase J)
+- **`/status`** + `scripts/status.js` — painel do negócio em 1 comando (padrão `theall status`):
+  memória, tarefas, agendados, clientes, integrações e sistema; saída `--json` para n8n
+- **`/notificar-telegram`** + `scripts/telegram-notificar.js` — notificações via bot Telegram
+  (padrão The-Notifier): alertas de campanha, posts publicados, weekly pronto, erros;
+  níveis info/alerta/sucesso/erro; integra com /aprovar-post, /weekly e /automacao
+- **`/auditar-seguranca`** — auditoria de segurança (padrão security-audit): roda as 6
+  verificações do validate-skills.sh + extras (.gitignore, .mcp.json, remote) e relatório priorizado
+- **Guard de leak pré-commit** no `validate-skills.sh` (padrão auto-sync.sh do The-ALL):
+  bloqueia commit se detectar TOKEN REAL (ghp_, hf_, sk-, xox, AIza, EAAG, AKIA) no working tree
+- **`/weekly` com saída JSON** (padrão report-writer): `weekly-<data>.json` estruturado
+  para automação/n8n consumir sem parsear markdown
+- **`scripts/bootstrap.sh`** — setup one-shot em máquina nova (padrão bootstrap.sh):
+  clone, deps, .env via `MAZYOS_ENV_B64`, permissões, validação e remote
+
 ## [2.2.0] — 2026-08-14
 
 ### Concluído — lacunas de implementação (auditoria)

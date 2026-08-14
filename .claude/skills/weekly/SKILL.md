@@ -68,6 +68,23 @@ Salvar em `marketing/relatorios/weekly-<YYYY-MM-DD>.md`:
 3. ...
 ```
 
+### Passo 2.5 — Saída JSON (para máquina/n8n)
+
+Além do markdown, salvar um resumo estruturado em
+`marketing/relatorios/weekly-<data>.json`:
+
+```json
+{
+  "periodo": {"inicio": "2026-08-07", "fim": "2026-08-13"},
+  "feito": ["tarefa 1", "post X"],
+  "metricas": {"investimento": 1200, "conversoes": 18, "cpa": 66.67, "clientes_novos": 3},
+  "acoes_proxima_semana": ["ação 1", "ação 2"],
+  "experimentos": [{"nome": "...", "veredito": "manter", "evidencia": "CTR 2,1% -> 3,4%"}]
+}
+```
+
+Isso permite que o n8n/cron consuma o fechamento semanal sem parsear markdown.
+
 ### Passo 3 — Atualizar o painel KPI
 
 Editar `_memoria/kpi.md`: valores da semana, anterior, tendência (▲▼—).
@@ -95,6 +112,7 @@ Se houver 2+ semanas de queda na mesma métrica, marcar como prioridade.
 ## Quality gate — antes de declarar concluído
 
 - [ ] Relatório salvo em marketing/relatorios/weekly-<data>.md
+- [ ] JSON estruturado salvo em weekly-<data>.json
 - [ ] KPI.md atualizado com valores reais (ou "sem dado" explícito)
 - [ ] Comparação com semana anterior feita (ou baseline sinalizada)
 - [ ] Experimentos vencidos tiveram veredito registrado

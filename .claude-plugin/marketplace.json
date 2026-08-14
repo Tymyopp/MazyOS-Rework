@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "MazyOS-Rework — sistema operacional do negócio: 33 skills de marketing, SEO/GEO, ads, conteúdo, conversão, cadência e integrações sociais em PT-BR.",
-    "version": "2.1.0"
+    "version": "2.3.0"
   },
   "plugins": [
     {
@@ -16,8 +16,8 @@
         "repo": "Tymyopp/MazyOS-Rework",
         "branch": "main"
       },
-      "description": "MazyOS-Rework — 43 skills: marketing, SEO/GEO, ads, conteúdo, conversão, cadência e automação total (MCPs, OpenWA, multi-plataforma).",
-      "version": "2.1.0",
+      "description": "MazyOS-Rework — 46 skills: marketing, SEO/GEO, ads, conteúdo, conversão, cadência, automação total (MCPs, OpenWA) + status, notificações Telegram e auditoria.",
+      "version": "2.3.0",
       "author": {
         "name": "Tymyopp",
         "url": "https://github.com/Tymyopp"
@@ -42,6 +42,7 @@
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/anuncio-google",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/aprovar-post",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/atualizar",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/auditar-seguranca",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/automacao",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/bio-instagram",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/caixa-social",
@@ -62,6 +63,7 @@
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/instalar",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/landing-page",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/mapear-rotinas",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/notificar-telegram",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/novo-projeto",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/postar-linkedin",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/postar-tiktok",
@@ -75,6 +77,7 @@
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/salvar",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/seo",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/seo-audit",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/status",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/video-curto",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/weekly"
       ]

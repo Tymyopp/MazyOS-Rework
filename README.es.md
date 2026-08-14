@@ -1,6 +1,6 @@
 # MazyOS-Rework — El sistema operativo de tu negocio (dentro de agentes de IA)
 
-> 43 habilidades (skills) en portugués brasileño para marketing, SEO/GEO, anuncios,
+> 46 habilidades (skills) en portugués brasileño para marketing, SEO/GEO, anuncios,
 > contenido, conversión y ritmo operativo de pequeñas empresas y negocios locales.
 
 ## Instalar (Claude Code)

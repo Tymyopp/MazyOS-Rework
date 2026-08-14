@@ -17,6 +17,9 @@ da IA pura (gerar imagem, postar em rede social, renderizar HTML em PNG).
 | `whatsapp-openwa.js` | Cliente do gateway OpenWA (criar-sessao, qr, status, enviar, listar) — `/conectar-whatsapp` | `OPENWA_URL`, `OPENWA_API_KEY` · Node 20+ |
 | `agendar-postforme.js` | Agenda publicações futuras via Post for Me (schedule/listar/cancelar) — `/agendar-posts` | `POSTFORME_API_KEY`, `SITE_URL` · Node 20+ |
 | `check-integracao.js` | Diagnóstico de TODAS as integrações (env, tokens, gateways, scripts) — roda antes de configurar | Node 20+ |
+| `status.js` | Painel de status do negócio (memória, tarefas, integrações; --json p/ n8n) — `/status` | Node 20+ |
+| `telegram-notificar.js` | Notificações via bot Telegram (info/alerta/sucesso/erro) — `/notificar-telegram` | `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` |
+| `bootstrap.sh` | Setup one-shot em máquina nova (clone, deps, .env via base64, validação) | bash + git |
 | `cron-posts.js` | Publica sozinho os itens 'agendado' do calendário (nível 3 — cron/n8n) | Node 20+ · calendario.md |
 | `telemetria.js` | Registro LOCAL e opt-in de uso das skills (`.local/uso.jsonl` — nunca sai da máquina) | Node 20+ |
 | `insta-conectar.js` | Conecta o Instagram por link de autorização (OAuth): gera o link, troca o code por token de 60 dias, renova e desconecta | Node 20+ · `.env` (META_APP_ID/SECRET) · ver `docs/automacao-meta-setup.md` |

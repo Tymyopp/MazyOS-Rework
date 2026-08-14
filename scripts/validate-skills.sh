@@ -55,6 +55,20 @@ if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   fi
 fi
 
+echo "== 6. Guard de leak (tokens REAIS no working tree) =="
+# Padrão herdado do auto-sync.sh do The-ALL: bloqueia ANTES do commit
+# se um token REAL (não placeholder) estiver em qualquer arquivo.
+LEAK=$(grep -rEn "(ghp|gho|ghs|ghr)_[A-Za-z0-9]{30,}|hf_[A-Za-z0-9]{30,}|sk-[A-Za-z0-9]{30,}|xox[baprs]-[A-Za-z0-9-]{20,}|AIza[0-9A-Za-z_-]{30,}|EAAG[A-Za-z0-9]{40,}|AKIA[0-9A-Z]{16}" \
+  --include="*.py" --include="*.js" --include="*.md" --include="*.json" --include="*.sh" --include="*.yml" --include="*.yaml" \
+  . 2>/dev/null | grep -v "^Binary" | grep -v "node_modules" | grep -v "\.agents/skills" | head -5)
+if [ -n "$LEAK" ]; then
+  echo "  ✗ TOKEN REAL detectado no working tree — ABORTANDO:"
+  echo "$LEAK" | sed 's/=.*/=***/' | head -5
+  ERROS=1
+else
+  echo "  ✓ nenhum token real"
+fi
+
 if [ $ERROS -eq 0 ]; then
   echo ""; echo "✓ VALIDAÇÃO COMPLETA: tudo OK"
 else

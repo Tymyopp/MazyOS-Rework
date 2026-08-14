@@ -12,7 +12,7 @@ PT-BR ([EN](README.en.md)) · [ES](README.es.md) · [Roadmap](ROADMAP.md) · [Co
 
 Você acaba de instalar o MazyOS. Em alguns minutos, sua empresa vai
 ter uma memória própria, uma identidade visual aplicada em tudo que
-o sistema gerar, e 43 skills prontas pra fazer marketing, SEO, ads
+o sistema gerar, e 46 skills prontas pra fazer marketing, SEO, ads
 e operação rodarem com você dirigindo.
 
 Bora voar.
@@ -52,7 +52,7 @@ Na janela do VS Code que abrir: terminal integrado → `claude` → `/instalar`.
 /plugin install mazyos-rework@mazyos-rework
 ```
 
-Instala as 43 skills sem clonar manualmente.
+Instala as 46 skills sem clonar manualmente.
 
 ### Em outros agentes
 
@@ -135,6 +135,12 @@ gerenciam engajamento unificado · `/cross-post` publica 1 peça em N redes ·
 `/conectar-whatsapp` conecta o WhatsApp pelo gateway **OpenWA** (QR estável, MCP nativo 51 tools, `docs/openwa-integracao.md`) ·
 `/insights-tudo` junta métricas de tudo no KPI · catálogo: `docs/mcp-catalogo.md`.
 
+**Operação e segurança (v2.3)** — padrões do The-ALL
+`/status` mostra o painel do negócio num comando · `/notificar-telegram` avisa você
+no Telegram (post publicado, weekly pronto, erros) · `/auditar-seguranca` roda a
+auditoria com guard de leak pré-commit · `/weekly` também gera JSON para automação ·
+`scripts/bootstrap.sh` reinstala tudo em máquina nova com `.env` em base64.
+
 **Cadência operacional (v1.5)** — o closed-loop rodando sozinho
 `/daily` abre o dia com pendências, posts agendados e alertas de ads · `/weekly`
 fecha a semana: métricas vs anterior, vereditos de experimentos e ações da próxima
@@ -151,7 +157,7 @@ de conteúdo em `marketing/calendario/calendario.md`.
 **MazyOS-Rework** — versão evoluída e mantida pela comunidade do
 [MazyOS original](https://github.com/mazzeoia/MazyOS), de [mazzeoia](https://mazzeoia.com.br).
 
-Melhorias em relação ao original: 43 skills (era 15), multi-agente (AGENTS.md +
+Melhorias em relação ao original: 46 skills (era 15), multi-agente (AGENTS.md +
 padrão Agent Skills), licença MIT, segurança (`.gitignore` + SECURITY + CI),
 quality gates, scripts de integração versionados, cadência operacional
 (/daily, /weekly, /experimento, /agendar) e CRM mínimo.
