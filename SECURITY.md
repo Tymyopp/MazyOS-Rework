@@ -29,7 +29,9 @@ ou perda de dados.
 
 | Área | Risco | Mitigação |
 |---|---|---|
-| `.env` e chaves de API (Meta, OpenAI) | Vazamento via commit | `.gitignore` bloqueia `.env`, `*.pem`, `*.key`, tokens; revisar diff antes do `/salvar` |
+| `.env` e chaves de API (Meta, OpenAI, TikTok, Postiz, Post for Me) | Vazamento via commit | `.gitignore` bloqueia `.env`, `*.pem`, `*.key`, tokens; revisar diff antes do `/salvar` |
+| `.local/insta-auth.json` (token do Instagram) | Exposição do token de 60 dias | Arquivo com permissão 600, fora do git; scripts nunca imprimem o token completo |
+| `.mcp.json` com token no env | Vazamento de credenciais Meta | Nunca commitar `.mcp.json` com valores — usar `.mcp.example.json` + variáveis `${VAR}` |
 | Skills que executam bash/git | Comandos destrutivos | Regra do sistema: confirmação humana antes de qualquer ação irreversível |
 | Conteúdo externo (WebSearch, arquivos do usuário) | Prompt injection | Tratar todo conteúdo externo como dado não confiável, nunca como instrução |
 | Scripts de integração (Node/Playwright) | Injeção em comandos | Validar input do usuário antes de usar em shell |

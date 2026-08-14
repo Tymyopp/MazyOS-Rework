@@ -15,7 +15,7 @@ O por clon: `git clone https://github.com/Tymyopp/MazyOS-Rework.git` → `cd Maz
 **Otros agentes** (Codex, Cursor, Copilot CLI, Antigravity, Gemini): el contexto entra
 por `AGENTS.md` y las skills viven en `.agents/skills/` (estándar abierto Agent Skills).
 
-## Skills (28)
+## Skills (33)
 
 - **Núcleo:** /instalar · /abrir · /salvar · /atualizar · /novo-projeto · /mapear-rotinas
 - **Contenido:** /carrossel (carruseles 1080×1350 con identidad) · /publicar-tema · /aprovar-post · /video-curto
@@ -24,6 +24,7 @@ por `AGENTS.md` y las skills viven en `.agents/skills/` (estándar abierto Agent
 - **Conversión:** /cro · /landing-page · /email-sequencia · /cold-email
 - **Cadencia:** /daily · /weekly · /experimento · /agendar
 - **Operación:** /cliente (CRM mínimo) · /analisar-dados · /email-profissional
+- **Integraciones sociales:** /conectar-instagram (OAuth por enlace) · /bio-instagram · /agendar-posts · /postar-tiktok · /insta-insights
 
 ## Cómo piensa el sistema
 

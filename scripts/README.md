@@ -16,6 +16,8 @@ da IA pura (gerar imagem, postar em rede social, renderizar HTML em PNG).
 | `hooks/validate-skill.sh` | Hook PostToolUse: valida após cada edição de arquivo | bash |
 | `telemetria.js` | Registro LOCAL e opt-in de uso das skills (`.local/uso.jsonl` — nunca sai da máquina) | Node 20+ |
 | `insta-conectar.js` | Conecta o Instagram por link de autorização (OAuth): gera o link, troca o code por token de 60 dias, renova e desconecta | Node 20+ · `.env` (META_APP_ID/SECRET) · ver `docs/automacao-meta-setup.md` |
+| `insta-insights.js` | Métricas do Instagram (alcance, impressões, engajamento, seguidores, posts) — `/insta-insights` | token de `.local/insta-auth.json` (ou `.env`) · Node 20+ |
+| `postar-tiktok.js` | Publica vídeo no TikTok (Content Posting API — Direct Post) — `/postar-tiktok` | `TIKTOK_*` no `.env` · Node 20+ · ver `docs/tiktok-setup.md` |
 
 ## Pré-requisitos comuns
 

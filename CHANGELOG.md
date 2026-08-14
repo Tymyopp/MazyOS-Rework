@@ -6,20 +6,6 @@ Todas as mudanças notáveis do MazyOS.
 
 Todas as mudanças notáveis do MazyOS.
 
-## [1.6.1] — 2026-08-13
-
-### Corrigido — consistência de URLs (auditoria de READMEs)
-- Todas as referências de instalação/clone/plugin apontam agora para `Tymyopp/MazyOS-Rework`
-  (README.md, README.en.md, README.es.md, docs/guia-de-inicio.md, CHANGELOG)
-- Título dos READMEs padronizado como MazyOS-Rework
-- Contagem de skills corrigida em textos desatualizados (15 → 28)
-- `skills.json`: homepage aponta para o repositório do rework
-- `marketplace.json`: owner/author atualizados para Tymyopp
-- `SECURITY.md`: mantenedor do rework
-- `docs/premium.md`: distinção clara entre rework (MIT, comunitário) e oferta comercial do autor original
-- Skill `/instalar`: reconhece `MazyOS-Rework`/`mazyos-rework` como nome genérico de pasta
-- `docs/guia-de-inicio.md`: suporte aponta para issues do repositório
-
 ## [1.9.0] — 2026-08-13
 
 ### Adicionado — agendamento, TikTok e insights (Fases 6-8 do plano de integração)
@@ -76,6 +62,20 @@ Todas as mudanças notáveis do MazyOS.
   (fallback: .env) com **renovação automática** se faltar <7 dias
 - **`.env.example`** — META_APP_ID, META_APP_SECRET, META_REDIRECT_URI, META_API_VERSION
 - **`/aprovar-post`** — pré-requisitos atualizados com o fluxo por link
+
+## [1.6.1] — 2026-08-13
+
+### Corrigido — consistência de URLs (auditoria de READMEs)
+- Todas as referências de instalação/clone/plugin apontam agora para `Tymyopp/MazyOS-Rework`
+  (README.md, README.en.md, README.es.md, docs/guia-de-inicio.md, CHANGELOG)
+- Título dos READMEs padronizado como MazyOS-Rework
+- Contagem de skills corrigida em textos desatualizados (15 → 28)
+- `skills.json`: homepage aponta para o repositório do rework
+- `marketplace.json`: owner/author atualizados para Tymyopp
+- `SECURITY.md`: mantenedor do rework
+- `docs/premium.md`: distinção clara entre rework (MIT, comunitário) e oferta comercial do autor original
+- Skill `/instalar`: reconhece `MazyOS-Rework`/`mazyos-rework` como nome genérico de pasta
+- `docs/guia-de-inicio.md`: suporte aponta para issues do repositório
 
 ## [1.6.0] — 2026-08-13
 

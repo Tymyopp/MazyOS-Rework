@@ -2,11 +2,11 @@
 
 > O sistema operacional do seu negócio dentro de agentes de IA — evolução do MazyOS (mazzeoia).
 
-[![Licença MIT](https://img.shields.io/badge/licenca-MIT-green)](LICENSE) · **28 skills** · [Agent Skills standard](https://agentskills.io) · PT-BR ([EN](README.en.md)) · [Roadmap](ROADMAP.md) · [Contribua](CONTRIBUTING.md)
+[![Licença MIT](https://img.shields.io/badge/licenca-MIT-green)](LICENSE) · **33 skills** · [Agent Skills standard](https://agentskills.io) · PT-BR ([EN](README.en.md)) · [Roadmap](ROADMAP.md) · [Contribua](CONTRIBUTING.md)
 
 Você acaba de instalar o MazyOS. Em alguns minutos, sua empresa vai
 ter uma memória própria, uma identidade visual aplicada em tudo que
-o sistema gerar, e 28 skills prontas pra fazer marketing, SEO, ads
+o sistema gerar, e 33 skills prontas pra fazer marketing, SEO, ads
 e operação rodarem com você dirigindo.
 
 Bora voar.
@@ -46,7 +46,7 @@ Na janela do VS Code que abrir: terminal integrado → `claude` → `/instalar`.
 /plugin install mazyos-rework@mazyos-rework
 ```
 
-Instala as 28 skills sem clonar manualmente.
+Instala as 33 skills sem clonar manualmente.
 
 ### Em outros agentes
 
@@ -71,7 +71,7 @@ memória e configura o sistema. Depois disso, é só usar.
 ## O sistema
 
 **Núcleo** — o jeito de operar o dia a dia
-`/abrir` carrega o contexto antes de cada sessão de trabalho · `/salvar`
+`/instalar` faz o setup guiado em 5-7 min · `/abrir` carrega o contexto antes de cada sessão de trabalho · `/salvar`
 faz commit + push no GitHub · `/atualizar` varre o projeto e atualiza
 a memória · `/novo-projeto` cria pasta isolada pra cada cliente ou
 iniciativa · `/mapear-rotinas` descobre o que você repete e transforma
@@ -110,7 +110,7 @@ de tráfego orgânico.
 `/video-curto` entrega roteiro de Reels/TikTok (gancho de 3s, texto em tela) ·
 `/cliente` mantém o CRM mínimo em `_memoria/clientes.md`.
 
-**Integração com Instagram (v1.7-v1.8)**
+**Integrações sociais (v1.7-v1.9)**
 `/conectar-instagram` conecta sua conta por **link de autorização** (Meta em modo
 desenvolvimento, sem app review) · token de 60 dias com renovação automática ·
 `/aprovar-post` publica **carrossel, imagem, Reel ou Story** · `/bio-instagram`
@@ -136,7 +136,7 @@ de conteúdo em `marketing/calendario/calendario.md`.
 **MazyOS-Rework** — versão evoluída e mantida pela comunidade do
 [MazyOS original](https://github.com/mazzeoia/MazyOS), de [mazzeoia](https://mazzeoia.com.br).
 
-Melhorias em relação ao original: 28 skills (era 15), multi-agente (AGENTS.md +
+Melhorias em relação ao original: 33 skills (era 15), multi-agente (AGENTS.md +
 padrão Agent Skills), licença MIT, segurança (`.gitignore` + SECURITY + CI),
 quality gates, scripts de integração versionados, cadência operacional
 (/daily, /weekly, /experimento, /agendar) e CRM mínimo.

@@ -20,14 +20,15 @@ Or via marketplace (once published):
 /plugin install mazyos-rework@mazyos-rework
 ```
 
-## Skills (15)
-- Core: /abrir /salvar /atualizar /novo-projeto /mapear-rotinas /instalar
+## Skills (33)
+- Core: /instalar /abrir /salvar /atualizar /novo-projeto /mapear-rotinas
 - Content: /carrossel (1080x1350 brand carousels) /publicar-tema /aprovar-post /video-curto
 - SEO & GEO: /seo (8-step flow incl. AI answers) /seo-audit /programatic-seo /analytics /responder-avaliacoes
 - Paid media: /anuncio-google (Google Ads CSV) /relatorio-ads (weekly report)
 - Conversion: /cro /landing-page /email-sequencia /cold-email
-- Operations: /cliente (light CRM) /daily /weekly /experimento /agendar
-- Production: /analisar-dados /email-profissional
+- Cadence: /daily /weekly /experimento /agendar
+- Operations: /cliente (light CRM) /analisar-dados /email-profissional
+- Social integrations: /conectar-instagram (link OAuth, 60-day token) /bio-instagram /agendar-posts (Postiz/Post for Me) /postar-tiktok /insta-insights
 
 ## How it thinks
 `_memoria/` is the brain (business facts, voice, strategy — read before every

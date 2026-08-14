@@ -2,7 +2,7 @@
   "$schema": "https://skills.sh/schema/skills.json",
   "name": "mazyos-rework",
   "displayName": "MazyOS-Rework",
-  "description": "Sistema operacional do negócio: 28 skills de marketing, SEO/GEO, ads, conteúdo, conversão e cadência operacional em PT-BR.",
+  "description": "Sistema operacional do negócio: 33 skills de marketing, SEO/GEO, ads, conteúdo, conversão, cadência e integrações sociais (Instagram, TikTok, agendamento, insights) em PT-BR.",
   "author": "Tymyopp",
   "license": "MIT",
   "homepage": "https://github.com/Tymyopp/MazyOS-Rework",
@@ -20,7 +20,9 @@
     "geo",
     "google-ads",
     "instagram",
+    "tiktok",
     "carrossel",
+    "insights",
     "pt-br"
   ],
   "agentSupport": [

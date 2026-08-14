@@ -5,7 +5,7 @@ e pra quem quer revender serviço.
 
 ## O que é open source (MIT — grátis)
 
-O repositório inteiro: as 28 skills, a memória, os templates, os scripts e a documentação.
+O repositório inteiro: as 33 skills, a memória, os templates, os scripts e a documentação.
 Você pode:
 - Usar no seu negócio, quantas vezes quiser
 - Modificar e adaptar

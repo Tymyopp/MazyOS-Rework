@@ -45,6 +45,35 @@ use janelas/pastas separadas.
 Uma vez configurado (tokens Meta + site no ar), o `/aprovar-post` faz tudo: blog + Insta + Facebook.
 LinkedIn ainda é manual (texto sai pronto em `legenda-linkedin.md`).
 
+## Redes sociais e integrações
+
+**Como faço a IA publicar no meu Instagram?**
+Rode `/conectar-instagram`: você cria um Meta App em modo desenvolvimento (guia em
+`docs/automacao-meta-setup.md`, ~15 min), a IA te manda o link de autorização, você
+clica e autoriza — token de 60 dias com renovação automática. Depois `/aprovar-post`
+publica carrossel, imagem, Reel ou Story.
+
+**Preciso de conta Business/Creator?**
+Sim — a Meta exige conta profissional e pública para publicação via API (conta
+pessoal não funciona desde 12/2024). A conversão é grátis e leva 2 minutos.
+
+**A IA consegue editar minha bio?**
+Não — a API do Instagram não edita perfil. A skill `/bio-instagram` gera a bio
+otimizada (≤150 caracteres, 3 opções), destaques e link na bio — você cola no app.
+
+**Dá pra agendar posts para o futuro?**
+Sim — `/agendar-posts` agenda em data futura via Postiz (self-host, grátis) ou
+Post for Me (SaaS). O `/agendar` planeja o calendário; o `/agendar-posts` executa.
+
+**E o TikTok?**
+`/postar-tiktok` publica vídeos via API oficial. Atenção: em modo sandbox só
+publica vídeos privados — posts públicos exigem auditoria da TikTok (ou usar
+Post for Me, que tem credenciais pré-aprovadas).
+
+**Como vejo os resultados?**
+`/insta-insights` puxa alcance, impressões, engajamento e seguidores — alimenta o
+painel KPI e o `/weekly`.
+
 ## Custos e uso
 
 **O MazyOS é gratuito?**

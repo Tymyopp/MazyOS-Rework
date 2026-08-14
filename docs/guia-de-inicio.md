@@ -43,7 +43,20 @@ O `/instalar` é uma conversa, não um formulário:
 | 6 | Responder avaliações | `/responder-avaliacoes` |
 | 7 | Fechar a semana | `/weekly` |
 
-## 4. Rotina de manutenção
+## 4. Conectar redes sociais (uma única vez, ~15 min)
+
+| Rede | Skill | Doc |
+|---|---|---|
+| Instagram | `/conectar-instagram` (link de autorização, token 60 dias) | `docs/automacao-meta-setup.md` |
+| TikTok | `/postar-tiktok` (app da TikTok + token OAuth) | `docs/tiktok-setup.md` |
+| Agendamento futuro | `/agendar-posts` (Postiz ou Post for Me) | `docs/agendamento.md` |
+| MCP avançado (opcional) | `.mcp.json` com servidor Meta | `docs/mcp-instagram.md` |
+
+Depois de conectar o Instagram: `/carrossel` cria → `/aprovar-post` publica
+(carrossel, imagem, Reel ou Story) → `/insta-insights` mede → `/weekly` fecha o ciclo.
+A bio é otimizada por `/bio-instagram` (colagem manual — a API não edita o perfil).
+
+## 5. Rotina de manutenção
 
 - **Todo dia:** `/daily` (5 min — briefing + pendências)
 - **2-3x/semana:** produzir conteúdo (`/carrossel`, `/publicar-tema`, `/video-curto`)
@@ -51,7 +64,7 @@ O `/instalar` é uma conversa, não um formulário:
 - **Quando testar algo:** `/experimento` (hipótese → veredito com número)
 - **Quando mudar de foco:** atualizar `_memoria/estrategia.md` (ou pedir `/atualizar`)
 
-## 5. Armadilhas comuns (e como sair delas)
+## 6. Armadilhas comuns (e como sair delas)
 
 | Sintoma | Causa | Solução |
 |---|---|---|
@@ -62,7 +75,7 @@ O `/instalar` é uma conversa, não um formulário:
 | Resposta parece robô | Memória de tom vazia | Preencha `_memoria/preferencias.md` com exemplo real de escrita |
 | .env vazou pro git | Commit antes do setup | `git rm --cached .env` + rodar `/salvar` de novo |
 
-## 6. Onde cada coisa mora
+## 7. Onde cada coisa mora
 
 - **Memória do negócio:** `_memoria/` (empresa, preferências, estratégia, tarefas, clientes, kpi, experimentos)
 - **Identidade:** `identidade/design-guide.md`
@@ -72,7 +85,7 @@ O `/instalar` é uma conversa, não um formulário:
 - **Calendário:** `marketing/calendario/calendario.md`
 - **Backup:** `/salvar` (git + GitHub)
 
-## 7. Suporte
+## 8. Suporte
 
 - FAQ da comunidade: `docs/FAQ.md`
 - Modelo de uso e licença: `docs/premium.md`
