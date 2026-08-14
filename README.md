@@ -2,7 +2,13 @@
 
 > O sistema operacional do seu negócio dentro de agentes de IA — evolução do MazyOS (mazzeoia).
 
-[![Licença MIT](https://img.shields.io/badge/licenca-MIT-green)](LICENSE) · **33 skills** · [Agent Skills standard](https://agentskills.io) · PT-BR ([EN](README.en.md)) · [Roadmap](ROADMAP.md) · [Contribua](CONTRIBUTING.md)
+[![Licença MIT](https://img.shields.io/badge/licenca-MIT-green)](LICENSE)
+[![Versão](https://img.shields.io/badge/versao-v1.9.0-blue)](CHANGELOG.md)
+[![Skills](https://img.shields.io/badge/skills-33-brightgreen)](SKILLS.md)
+[![Agent Skills](https://img.shields.io/badge/Agent_Skills-standard-purple)](https://agentskills.io)
+[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+
+PT-BR ([EN](README.en.md)) · [ES](README.es.md) · [Roadmap](ROADMAP.md) · [Contribua](CONTRIBUTING.md)
 
 Você acaba de instalar o MazyOS. Em alguns minutos, sua empresa vai
 ter uma memória própria, uma identidade visual aplicada em tudo que
