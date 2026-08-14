@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "MazyOS — sistema operacional do negócio: 15 skills de marketing, SEO, ads, conteúdo e operação em PT-BR.",
-    "version": "1.2.0"
+    "version": "1.4.0"
   },
   "plugins": [
     {
@@ -16,31 +16,48 @@
         "repo": "mazzeoia/MazyOS",
         "branch": "main"
       },
-      "description": "MazyOS — 15 skills: /carrossel, /seo, /anuncio-google, /relatorio-ads, /publicar-tema, /aprovar-post e núcleo operacional (/instalar, /abrir, /salvar, /atualizar, /mapear-rotinas).",
-      "version": "1.2.0",
+      "description": "MazyOS — 24 skills: carrossel, seo, geo, cro, landing, email-sequencia, cold-email, anuncio-google, relatorio-ads e núcleo operacional.",
+      "version": "1.4.0",
       "author": {
         "name": "mazzeoia",
         "url": "https://mazzeoia.com.br"
       },
       "license": "MIT",
       "category": "marketing",
-      "keywords": ["marketing", "seo", "geo", "google-ads", "conteudo", "negocio", "pt-br"],
+      "keywords": [
+        "marketing",
+        "seo",
+        "geo",
+        "google-ads",
+        "conteudo",
+        "negocio",
+        "pt-br"
+      ],
       "skills": [
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/abrir",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/analisar-dados",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/analytics",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/anuncio-google",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/aprovar-post",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/atualizar",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/carrossel",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/cliente",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/cold-email",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/cro",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/email-profissional",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/email-sequencia",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/instalar",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/landing-page",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/mapear-rotinas",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/novo-projeto",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/programatic-seo",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/publicar-tema",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/relatorio-ads",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/responder-avaliacoes",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/salvar",
-        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/seo"
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/seo",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/seo-audit",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/video-curto"
       ]
     }
   ]

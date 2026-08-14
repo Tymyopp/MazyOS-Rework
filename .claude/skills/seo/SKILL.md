@@ -283,10 +283,40 @@ requires: ["web_search", "web_fetch"]
    - A cada 30 dias, testar os top 5 termos no ChatGPT, Gemini, Perplexity
    - Registrar: a empresa apareceu? quem apareceu? fonte citada?
    - Ajustar conteúdo com base nos resultados
+   - **Ferramentas de monitoramento de IA:** Otterly AI (ChatGPT, Perplexity, AI
+     Overviews), Peec AI (ChatGPT, Gemini, Perplexity, Claude, Copilot), ZipTie
+     (menções + sentimento), LLMrefs (keyword → visibilidade em IA)
 
 **Output:** `marketing/seo/08-geo-otimizacao-ia.md` com auditoria, FAQ + schema JSON-LD, lista de ações pra aumentar citações, checklist de monitoramento.
 
 ---
+
+### Dados e benchmarks de citabilidade (pesquisa real de mercado)
+
+Quanto cada prática aumenta a chance de a IA citar seu conteúdo:
+
+| Prática | Ganho |
+|---|---|
+| Citar fontes autoritativas com links | +40% |
+| Incluir estatísticas com fonte | +37% |
+| Citações de especialistas (nome + título) | +30% |
+| Tom autoral / demonstração de expertise | +25% |
+| Clareza e simplicidade | +20% |
+| Termos técnicos do nicho | +18% |
+| Vocabulário diverso (não repetir as mesmas palavras) | +15% |
+| Fluência / legibilidade | +15-30% |
+| Keyword stuffing | **-10% (prejudica)** |
+
+### O que NÃO fazer em GEO
+
+- **Não criar conteúdo separado "pra IA"** — o Google trata como "scaled content
+  abuse" (spam policy). O mesmo conteúdo serve pessoas e IAs.
+- **Não fragmentar o conteúdo em pedaços pequenos** ("AI-bait") — usar estrutura
+  normal de parágrafos e headings.
+- **Não gerar variações finas em massa** pra manipular ranking — conteúdo gerado
+  por IA é aceitável se cumprir Search Essentials; massa de variação fina não é.
+- **Sem data de atualização** = conteúdo antigo perde pra conteúdo datado (IAs
+  pesam recência). Sempre datar e atualizar.
 
 ## Execução
 

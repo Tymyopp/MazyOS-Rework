@@ -2,7 +2,7 @@
 
 > O sistema operacional do seu negócio dentro do Claude Code.
 
-![Licença](https://img.shields.io/badge/licença-MIT-green) · **15 skills** · [Agent Skills standard](https://agentskills.io) · PT-BR ([EN](README.en.md)) · [Roadmap](ROADMAP.md) · [Contribua](CONTRIBUTING.md)
+![Licença](https://img.shields.io/badge/licença-MIT-green) · **24 skills** · [Agent Skills standard](https://agentskills.io) · PT-BR ([EN](README.en.md)) · [Roadmap](ROADMAP.md) · [Contribua](CONTRIBUTING.md)
 
 Você acaba de instalar o MazyOS. Em alguns minutos, sua empresa vai
 ter uma memória própria, uma identidade visual aplicada em tudo que
@@ -93,6 +93,22 @@ e devolve relatório semanal com alertas e recomendações.
 **Produção** — ferramentas do dia a dia
 `/analisar-dados` lê CSV/XLSX/PDF e gera resumo executivo ·
 `/email-profissional` rascunha email a partir de contexto livre.
+
+**Conversão e funil (v1.4)**
+`/cro` audita landing e prioriza bloqueios de conversão · `/landing-page` cria
+página de captura completa com identidade da marca · `/email-sequencia` monta
+sequências de 3-6 emails (boas-vindas, nutrição, carrinho) · `/cold-email` escreve
+prospecção fria personalizada com variantes A/B.
+
+**SEO e dados (v1.4)**
+`/seo-audit` faz auditoria técnica on-page com severidade e JSON-LD pronto ·
+`/programatic-seo` gera páginas em escala (cidades/variações) com guardrail
+anti-página-fina · `/analytics` lê GA4/Search Console e devolve recomendações
+de tráfego orgânico.
+
+**Conteúdo e operação (v1.4)**
+`/video-curto` entrega roteiro de Reels/TikTok (gancho de 3s, texto em tela) ·
+`/cliente` mantém o CRM mínimo em `_memoria/clientes.md`.
 
 ---
 

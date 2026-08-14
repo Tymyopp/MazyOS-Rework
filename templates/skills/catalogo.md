@@ -112,6 +112,28 @@ Skills externas prontas pra instalar. Use como referencia ao criar skills novas 
 
 ---
 
+---
+
+## Skills do MazyOS (v1.4+)
+
+Skills nativas adicionadas após a primeira versão — já instaladas no sistema:
+
+### Conversão e funil
+- **/cro** — auditoria de landing/página de vendas: bloqueios priorizados por impacto + copy antes/depois
+- **/landing-page** — landing completa em HTML único com identidade visual + copy aprovada
+- **/email-sequencia** — sequências de 3-6 emails (boas-vindas, nutrição, carrinho, reactivação)
+- **/cold-email** — prospecção fria B2B com pesquisa e personalização + variantes A/B + follow-up
+
+### SEO e dados
+- **/seo-audit** — auditoria técnica/on-page com severidade e JSON-LD pronto
+- **/programatic-seo** — páginas em escala (cidades/variações) com regra dos 70% anti-página-fina
+- **/analytics** — leitura de GA4/Search Console → recomendações de tráfego orgânico
+
+### Conteúdo e operação
+- **/video-curto** — roteiros de Reels/TikTok (gancho 3s, texto em tela, storyboard)
+- **/cliente** — CRM mínimo em `_memoria/clientes.md` (registro + follow-up)
+
+
 ## Como adicionar skills novas a este catalogo
 
 Se voce testou uma skill e quer adicionar aqui pra referencia futura:

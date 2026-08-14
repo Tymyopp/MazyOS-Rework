@@ -88,6 +88,7 @@ Se sim, identificar o que atualizar:
 - **Pasta, regra de organização, skill criada** → `CLAUDE.md`
 - **Visual (cores, fontes, logo)** → `identidade/design-guide.md`
 - **Pendências e próximos passos** → `_memoria/tarefas.md`
+- **Cliente novo ou compra (quem, o quê, valor, quando seguir)** → `_memoria/clientes.md` (skill `/cliente`)
 
 Mostrar o que vai mudar antes de salvar. Não reformatar o arquivo
 inteiro, só adicionar ou editar a linha relevante.

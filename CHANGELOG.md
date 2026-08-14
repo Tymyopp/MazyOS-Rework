@@ -6,6 +6,27 @@ Todas as mudanças notáveis do MazyOS.
 
 Todas as mudanças notáveis do MazyOS.
 
+## [1.4.0] — 2026-08-13
+
+### Adicionado — 9 skills novas (total: 24)
+- **/cro** — auditoria de conversão com priorização impacto × esforço e copy antes/depois
+- **/landing-page** — landing em HTML único com identidade visual e copy aprovada
+- **/email-sequencia** — sequências de 3-6 emails com disparo, assunto e CTA por email
+- **/cold-email** — prospecção B2B com pesquisa real do prospect, variantes A/B e follow-up
+- **/seo-audit** — auditoria técnica/on-page com severidade e schema JSON-LD pronto
+- **/programatic-seo** — páginas em escala com regra dos 70% (anti-conteúdo fino)
+- **/analytics** — leitura de GA4/Search Console com oportunidades de CTR
+- **/video-curto** — roteiros de Reels/TikTok (gancho 3s, texto em tela, storyboard)
+- **/cliente** — CRM mínimo em `_memoria/clientes.md` (registro, histórico, follow-up)
+
+### Melhorado
+- **/seo passo 8 (GEO)** — benchmarks reais de citabilidade (fontes +40%, stats +37%,
+  citações de especialistas +30%), ferramentas de monitoramento (Otterly, Peec, ZipTie,
+  LLMrefs) e seção "o que NÃO fazer em GEO" (anti-spam policy do Google)
+- **`_memoria/clientes.md`** — novo arquivo de CRM com template
+- **CLAUDE.md** — regra de registro de clientes
+- **templates/skills/catalogo.md** e **marketplace.json** — atualizados com as 9 skills
+
 ## [1.3.0] — 2026-08-13
 
 ### Adicionado
