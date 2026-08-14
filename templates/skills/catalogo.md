@@ -153,6 +153,26 @@ Docs: `docs/automacao-meta-setup.md` (Meta), `docs/tiktok-setup.md` (TikTok),
 `docs/agendamento.md` (agendadores), `docs/mcp-instagram.md` (MCPs).
 
 
+---
+
+## Automação total (v2.0)
+
+Skills da Fase H — conexão e autonomia:
+
+- **/conectar-mcp** — detecta, ativa e testa servidores MCP (perfis starter/avancado/agencia)
+- **/postar-whatsapp** — mensagens e follow-up do CRM pelo WhatsApp (Cloud API/WA MCP)
+- **/postar-linkedin** — publicação via OAuth oficial (perfil/página)
+- **/postar-youtube** — upload de vídeos/Shorts com metadados IA
+- **/responder-comentarios** — responde comentários IG/FB com curadoria
+- **/caixa-social** — inbox unificado (SocialAPI) de todas as redes
+- **/cross-post** — 1 peça → N redes (aprovação única)
+- **/automacao** — nível 3: cron/n8n para rodar sozinho
+- **/insights-tudo** — painel unificado de métricas → KPI
+
+Docs: `docs/mcp-catalogo.md` (instalação), `docs/automacao-n8n.md` (nível 3),
+`docs/pesquisa-mcp-automacao.md` (análise do ecossistema).
+
+
 ## Cadência operacional (v1.5)
 
 Skills de ritmo semanal — o closed-loop rodando sozinho:

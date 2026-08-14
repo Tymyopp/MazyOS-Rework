@@ -6,6 +6,41 @@ Todas as mudanças notáveis do MazyOS.
 
 Todas as mudanças notáveis do MazyOS.
 
+## [2.0.0] — 2026-08-13
+
+### Adicionado — Fase H: Automação Total (9 skills novas — total: 42)
+
+**H1 — Catálogo e perfis MCP**
+- `docs/mcp-catalogo.md` — referência completa de MCPs por plataforma + unificados + perfis
+- `.mcp.example.{starter,avancado,agencia}.json` — 3 perfis prontos (Meta, WhatsApp,
+  YouTube, LinkedIn, multi-plataforma)
+
+**H2 — Conector universal**
+- `/conectar-mcp` — detecta (`claude mcp list`), ativa perfil, testa cada servidor e reporta status
+
+**H3 — Plataformas novas**
+- `/postar-whatsapp` — mensagens/templates/follow-up do CRM via WhatsApp (Cloud API/WA MCP, 63 tools)
+- `/postar-linkedin` — publicação via OAuth oficial (fim do "LinkedIn manual")
+- `/postar-youtube` — upload de vídeos/Shorts com metadados IA (youtube-uploader-mcp, grátis)
+- `/responder-comentarios` — lê/responde comentários IG/FB com curadoria humana
+- `/caixa-social` — inbox unificado (SocialAPI): mensagens/comentários/menções/reviews numa fila
+
+**H4 — Multi-plataforma**
+- `/cross-post` — 1 peça → N redes (limites por plataforma, aprovação única)
+- `/aprovar-post` — opção de cross-post referenciada
+
+**H5 — Nível 3 (roda sozinho)**
+- `scripts/cron-posts.js` — publica o calendário automaticamente (cron/n8n)
+- `docs/automacao-n8n.md` — fluxos prontos (post→redes, DM→resposta, avaliação→aviso, weekly→email)
+- `/automacao` — levanta rotinas, configura cron/n8n, testa e registra
+
+**H6 — Medição unificada**
+- `/insights-tudo` — painel de métricas de todas as plataformas → `_memoria/kpi.md` + `/weekly`
+
+### Outros
+- `.env.example` — WHATSAPP_TOKEN, LINKEDIN_ACCESS_TOKEN, GOOGLE_CLIENT_SECRET_FILE,
+  AYRSHARE_API_KEY, ZERNIO_API_KEY, UPLOADPOST_API_KEY, SOCIALAPI_KEY, N8N_URL, N8N_API_KEY
+
 ## [1.9.0] — 2026-08-13
 
 ### Adicionado — agendamento, TikTok e insights (Fases 6-8 do plano de integração)

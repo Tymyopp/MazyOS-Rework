@@ -18,5 +18,7 @@ Fases de evolução definidas no benchmark contra o ecossistema global de skills
 | **G** | Publicação completa — Reels, Stories, imagem única, MCP opcional, /bio-instagram (F3-F5) | ✅ 13/08/2026 |
 | **G** | Agendamento real (/agendar-posts), TikTok (/postar-tiktok), insights (/insta-insights) (F6-F8) | ✅ 13/08/2026 |
 
-> Fases A–G: ver CHANGELOG. Próximos: F3 (Reels/Stories no /aprovar-post),
-> F5 (/bio-instagram), F6-F8 (agendamento, TikTok, insights).
+| **H** | Automação total — MCPs (catálogo + /conectar-mcp), WhatsApp/LinkedIn/YouTube, comentários, caixa social, cross-post, cron/n8n (nível 3), insights unificados | ✅ 13/08/2026 |
+
+> Fases A–H implementadas (v2.0.0, 42 skills). Próximos passos possíveis: tradução
+> das skills para ES, publicar no skills.sh/plugin oficial, telemetria em uso real.

@@ -156,6 +156,12 @@ Facebook:    <link do post>
 LinkedIn:    pendente — texto pronto em legenda-linkedin.md (postar manual)
 ```
 
+### Passo 10 (opcional) — Cross-post multi-plataforma
+
+Se o usuário quiser publicar em outras redes (TikTok, LinkedIn, X, YouTube), usar a
+skill `/cross-post` com a mesma peça aprovada — adapta e publica em todas com uma
+única aprovação (via unificador MCP ou MCPs individuais).
+
 ## Tratamento de erro
 
 - Push falhou: rollback do `draft: false` (restaura `draft: true`), relata e para

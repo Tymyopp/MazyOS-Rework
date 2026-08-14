@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "MazyOS-Rework — sistema operacional do negócio: 33 skills de marketing, SEO/GEO, ads, conteúdo, conversão, cadência e integrações sociais em PT-BR.",
-    "version": "1.9.0"
+    "version": "2.0.0"
   },
   "plugins": [
     {
@@ -16,8 +16,8 @@
         "repo": "Tymyopp/MazyOS-Rework",
         "branch": "main"
       },
-      "description": "MazyOS-Rework — 33 skills: marketing, SEO/GEO, ads, conteúdo, conversão, cadência e integrações sociais (Instagram por link, TikTok, agendamento, insights).",
-      "version": "1.9.0",
+      "description": "MazyOS-Rework — 42 skills: marketing, SEO/GEO, ads, conteúdo, conversão, cadência e automação total (MCPs: Instagram, WhatsApp, LinkedIn, YouTube, TikTok, multi-plataforma).",
+      "version": "2.0.0",
       "author": {
         "name": "Tymyopp",
         "url": "https://github.com/Tymyopp"
@@ -42,26 +42,35 @@
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/anuncio-google",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/aprovar-post",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/atualizar",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/automacao",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/bio-instagram",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/caixa-social",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/carrossel",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/cliente",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/cold-email",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/conectar-instagram",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/conectar-mcp",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/cro",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/cross-post",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/daily",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/email-profissional",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/email-sequencia",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/experimento",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/insights-tudo",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/insta-insights",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/instalar",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/landing-page",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/mapear-rotinas",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/novo-projeto",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/postar-linkedin",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/postar-tiktok",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/postar-whatsapp",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/postar-youtube",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/programatic-seo",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/publicar-tema",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/relatorio-ads",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/responder-avaliacoes",
+        "${CLAUDE_PLUGIN_ROOT}/.claude/skills/responder-comentarios",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/salvar",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/seo",
         "${CLAUDE_PLUGIN_ROOT}/.claude/skills/seo-audit",

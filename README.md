@@ -12,7 +12,7 @@ PT-BR ([EN](README.en.md)) · [ES](README.es.md) · [Roadmap](ROADMAP.md) · [Co
 
 Você acaba de instalar o MazyOS. Em alguns minutos, sua empresa vai
 ter uma memória própria, uma identidade visual aplicada em tudo que
-o sistema gerar, e 33 skills prontas pra fazer marketing, SEO, ads
+o sistema gerar, e 42 skills prontas pra fazer marketing, SEO, ads
 e operação rodarem com você dirigindo.
 
 Bora voar.
@@ -52,7 +52,7 @@ Na janela do VS Code que abrir: terminal integrado → `claude` → `/instalar`.
 /plugin install mazyos-rework@mazyos-rework
 ```
 
-Instala as 33 skills sem clonar manualmente.
+Instala as 42 skills sem clonar manualmente.
 
 ### Em outros agentes
 
@@ -126,6 +126,14 @@ gera bio, destaques e link na bio · `/agendar-posts` agenda em data futura
 setups guiados em `docs/automacao-meta-setup.md`, `docs/tiktok-setup.md`,
 `docs/agendamento.md`.
 
+**Automação total (v2.0)** — MCPs + nível 3
+`/conectar-mcp` conecta e testa servidores MCP (3 perfis prontos) · `/postar-whatsapp`
+manda mensagem e follow-up do CRM · `/postar-linkedin` publica via OAuth (fim do manual) ·
+`/postar-youtube` sobe vídeos/Shorts · `/responder-comentarios` e `/caixa-social`
+gerenciam engajamento unificado · `/cross-post` publica 1 peça em N redes ·
+`/automacao` + `scripts/cron-posts.js` fazem rodar sozinho (cron/n8n) ·
+`/insights-tudo` junta métricas de tudo no KPI · catálogo: `docs/mcp-catalogo.md`.
+
 **Cadência operacional (v1.5)** — o closed-loop rodando sozinho
 `/daily` abre o dia com pendências, posts agendados e alertas de ads · `/weekly`
 fecha a semana: métricas vs anterior, vereditos de experimentos e ações da próxima
@@ -142,7 +150,7 @@ de conteúdo em `marketing/calendario/calendario.md`.
 **MazyOS-Rework** — versão evoluída e mantida pela comunidade do
 [MazyOS original](https://github.com/mazzeoia/MazyOS), de [mazzeoia](https://mazzeoia.com.br).
 
-Melhorias em relação ao original: 33 skills (era 15), multi-agente (AGENTS.md +
+Melhorias em relação ao original: 42 skills (era 15), multi-agente (AGENTS.md +
 padrão Agent Skills), licença MIT, segurança (`.gitignore` + SECURITY + CI),
 quality gates, scripts de integração versionados, cadência operacional
 (/daily, /weekly, /experimento, /agendar) e CRM mínimo.

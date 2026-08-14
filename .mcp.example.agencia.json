@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "meta": {
+      "command": "npx",
+      "args": ["-y", "meta-mcp-server"],
+      "env": {
+        "META_ACCESS_TOKEN": "${META_PAGE_ACCESS_TOKEN}",
+        "INSTAGRAM_USER_ID": "${META_IG_USER_ID}"
+      }
+    },
+    "whatsapp": {
+      "command": "npx",
+      "args": ["-y", "@delltrak/wa-mcp"],
+      "env": { "WHATSAPP_CHANNEL": "cloud-api", "WHATSAPP_TOKEN": "${WHATSAPP_TOKEN}" }
+    },
+    "youtube": {
+      "command": "youtube-uploader-mcp",
+      "args": ["-client_secret_file", "${GOOGLE_CLIENT_SECRET_FILE}"]
+    },
+    "linkedin": {
+      "command": "npx",
+      "args": ["-y", "@pegasusheavy/linkedin-mcp"],
+      "env": { "LINKEDIN_ACCESS_TOKEN": "${LINKEDIN_ACCESS_TOKEN}" }
+    },
+    "multiplataforma": {
+      "command": "npx",
+      "args": ["-y", "ayrshare-mcp"],
+      "env": { "AYRSHARE_API_KEY": "${AYRSHARE_API_KEY}" }
+    }
+  }
+}

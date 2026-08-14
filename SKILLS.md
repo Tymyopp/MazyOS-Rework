@@ -1,6 +1,6 @@
 # SKILLS.md — Inventário e versionamento
 
-> Manifesto central das 33 skills. Cada skill tem `version` no frontmatter;
+> Manifesto central das 42 skills. Cada skill tem `version` no frontmatter;
 > este arquivo é o índice consolidado (atualize ao criar/editar skills).
 
 | Skill | Versão | Categoria | O que faz |
@@ -36,6 +36,15 @@
 | `/postar-tiktok` | 1.0.0 | integração | publica vídeo no TikTok (Content Posting API) com status |
 | `/agendar-posts` | 1.0.0 | integração | agenda publicações reais (Postiz ou Post for Me) a partir do calendário |
 | `/bio-instagram` | 1.0.0 | integração | bio otimizada (≤150 chars, 3 opções), destaques, link na bio e grade do feed — colagem manual |
+| `/conectar-mcp` | 1.0.0 | integração | conecta e testa servidores MCP (perfis starter/avancado/agencia) |
+| `/postar-whatsapp` | 1.0.0 | integração | envia mensagens pelo WhatsApp (Cloud API/WA MCP) + follow-up do CRM |
+| `/postar-linkedin` | 1.0.0 | integração | publica no LinkedIn via OAuth oficial (fim do LinkedIn manual) |
+| `/postar-youtube` | 1.0.0 | integração | upload de vídeos/Shorts no YouTube com metadados IA |
+| `/responder-comentarios` | 1.0.0 | integração | lê e responde comentários IG/FB no tom da marca (aprovação) |
+| `/caixa-social` | 1.0.0 | integração | inbox unificado de todas as redes (SocialAPI) com triagem |
+| `/cross-post` | 1.0.0 | integração | 1 peça → N redes adaptada por plataforma, aprovação única |
+| `/automacao` | 1.0.0 | integração | automação nível 3: cron/n8n para publicar e avisar sozinho |
+| `/insights-tudo` | 1.0.0 | integração | painel unificado de métricas de todas as plataformas → KPI |
 | `/conectar-instagram` | 1.0.0 | integração | conecta a conta do Instagram por link de autorização (token 60 dias, auto-renovação) |
 | `/cliente` | 1.0.0 | operação |  |
 
