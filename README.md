@@ -119,6 +119,20 @@ de conteúdo em `marketing/calendario/calendario.md`.
 
 ---
 
+---
+
+## Sobre este repositório
+
+**MazyOS-Rework** — versão evoluída e mantida pela comunidade do
+[MazyOS original](https://github.com/mazzeoia/MazyOS), de [mazzeoia](https://mazzeoia.com.br).
+
+Melhorias em relação ao original: 28 skills (era 15), multi-agente (AGENTS.md +
+padrão Agent Skills), licença MIT, segurança (`.gitignore` + SECURITY + CI),
+quality gates, scripts de integração versionados, cadência operacional
+(/daily, /weekly, /experimento, /agendar) e CRM mínimo.
+
+Projeto original: © 2026 mazzeoia · Rework: © 2026 Tymyopp · Licença: MIT.
+
 ## A tese
 
 IA não é uma ferramenta que sua empresa usa. É o sistema operacional em
