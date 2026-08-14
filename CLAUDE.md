@@ -60,6 +60,7 @@ Se sim, identificar onde faz mais sentido salvar:
 - **Sobre o negócio** (clientes, serviços, mercado) → `_memoria/empresa.md`
 - **Sobre preferências e estilo** (tom de voz, formato, o que evitar) → `_memoria/preferencias.md`
 - **Sobre prioridades e foco** (projetos, metas, prazos) → `_memoria/estrategia.md`
+- **Pendências e próximos passos** (tarefa nova identificada) → `_memoria/tarefas.md`
 - **Regra de comportamento nessa pasta** → próprio `CLAUDE.md`
 
 Salvar com uma linha nova clara, sem reformatar o arquivo inteiro.
@@ -86,6 +87,7 @@ Se sim, identificar o que atualizar:
 - **Tom ou estilo** → `_memoria/preferencias.md`
 - **Pasta, regra de organização, skill criada** → `CLAUDE.md`
 - **Visual (cores, fontes, logo)** → `identidade/design-guide.md`
+- **Pendências e próximos passos** → `_memoria/tarefas.md`
 
 Mostrar o que vai mudar antes de salvar. Não reformatar o arquivo
 inteiro, só adicionar ou editar a linha relevante.

@@ -8,6 +8,9 @@ description: >
   "aparecer no google", "aparecer no chatgpt", "aparecer nas ias",
   "google meu negócio", "gmb", "analisar concorrência seo",
   "pesquisa de nicho", "google trends".
+version: 1.2.0
+model: "*"
+requires: ["web_search", "web_fetch"]
 ---
 
 # /seo — SEO completo + GEO + Google Ads
@@ -308,3 +311,10 @@ Ao finalizar, apresentar **resumo executivo** com:
 - Focar em termos com intenção comercial/transacional pra negócio B2C/B2B local
 - Schema markup em formato JSON-LD (padrão Google)
 - Google Ads: nunca inventar CPC ou estimativas de custo sem base real
+
+## Quality gate — antes de declarar concluído
+
+- [ ] 8 arquivos criados em marketing/seo/ (01..08) — nenhum passo pulado
+- [ ] Nenhum número inventado: volumes/CPC são estimativas sinalizadas com a lógica
+- [ ] Top 10 termos priorizados por intenção transacional + baixa concorrência
+- [ ] Schema JSON-LD válido (LocalBusiness/Product/FAQ)

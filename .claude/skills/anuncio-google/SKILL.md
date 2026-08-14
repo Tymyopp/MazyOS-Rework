@@ -7,6 +7,9 @@ description: >
   negativas. Lê o briefing de _memoria/empresa.md e da pesquisa SEO se existir.
   Use quando o usuário pedir "criar campanha google ads", "anúncio google", "google ads",
   "csv pro google ads", ou /anuncio-google.
+version: 1.2.0
+model: "*"
+requires: ["web_search", "google-ads-editor (import)"]
 ---
 
 # /anuncio-google — Estrutura de campanha Google Ads
@@ -172,3 +175,11 @@ Sugestão de orçamento inicial: R$<X>/dia por <Y> dias antes de avaliar.
 - **Lista de negativas global** é obrigatória — sem ela, queima dinheiro em buscas irrelevantes.
 - **Conversões antes de tudo.** Sem conversão configurada, o Google não otimiza — relatar isso e pedir setup antes de ativar.
 - Copies seguem `_memoria/preferencias.md` estritamente. Sem jargão de marketing se o público não usa.
+
+## Quality gate — antes de declarar concluído
+
+- [ ] 8 CSVs + configuracoes.md + README.md gerados em marketing/campanhas/google-ads-<data>/
+- [ ] Campanhas com status pausado (nunca ativas sem aprovação)
+- [ ] Lista de palavras-chave negativas globais presente
+- [ ] 3 RSAs por grupo: 15 headlines (≤30 chars) + 4 descriptions (≤90 chars), sem emoji/superlativos
+- [ ] Nenhum CPC inventado — faixa baseada em WebSearch ou explicitamente estimado

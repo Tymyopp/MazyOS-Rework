@@ -6,6 +6,9 @@ description: >
   `_memoria/estrategia.md`, `identidade/design-guide.md` e adapta o `CLAUDE.md` conforme o perfil.
   Use quando o usuário acabou de clonar o repositório e quer instalar o sistema, ou quando
   pedir explicitamente "rodar /instalar", "instalar o MazyOS", "primeiro setup".
+version: 1.1.0
+model: "*"
+requires: ["git", "claude-code"]
 ---
 
 # /instalar — Instalação inicial do MazyOS

@@ -5,6 +5,9 @@ description: >
   com os principais insights, tendências e recomendações.
   Use quando o usuário disser "analisa esse arquivo", "o que mostram esses dados",
   "resume esses resultados", "analisa esse relatório", ou arrastar um arquivo de dados.
+version: 1.1.0
+model: "*"
+requires: ["arquivo csv/xlsx/txt/json"]
 ---
 
 # /analisar-dados — Análise de Arquivo

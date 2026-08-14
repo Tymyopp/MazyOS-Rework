@@ -7,6 +7,9 @@ description: >
   LinkedIn — tudo amarrado, com o carrossel apontando pro blog.
   Use quando o usuário pedir "publicar tema", "gera o conteúdo do tema X", "transforma esse tema
   em post", "cria o conteúdo completo", ou /publicar-tema.
+version: 1.2.0
+model: "*"
+requires: ["site-blog", "skill-carrossel"]
 ---
 
 # /publicar-tema — Pipeline de conteúdo SEO + redes sociais
@@ -152,3 +155,10 @@ Pra publicar:
 2. **Tudo conectado.** Cada peça referencia a outra (carrossel linka pro blog, blog tem CTA pro contato).
 3. **Draft sempre.** Nunca publicar automaticamente — usuário revisa antes (ou usa `/aprovar-post`).
 4. **Linguagem do público real.** Sem corporativês. Sempre.
+
+## Quality gate — antes de declarar concluído
+
+- [ ] Blog com draft: true e frontmatter completo (title, description, publishedAt, keywords)
+- [ ] Carrossel renderizado e legendas legenda.md + legenda-linkedin.md na mesma pasta
+- [ ] Carrossel aponta pro blog (URL no slide final) e blog tem CTA de contato
+- [ ] Slug kebab-case sem stopwords; pastas nomeadas com a mesma data

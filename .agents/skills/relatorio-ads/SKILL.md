@@ -7,6 +7,9 @@ description: >
   semana seguinte.
   Use quando o usuário pedir "relatório de ads", "relatório de campanha", "como foram os ads",
   "performance da semana", "relatorio meta", "relatorio google ads", ou /relatorio-ads.
+version: 1.2.0
+model: "*"
+requires: ["exports csv google/meta"]
 ---
 
 # /relatorio-ads — Relatório semanal de Google Ads + Meta Ads
@@ -161,3 +164,11 @@ Se sim, chamar `/email-profissional` com o resumo executivo + link/anexo.
 - **Linguagem do dono.** Seguir `_memoria/preferencias.md`. CPM, CTR, CPA são OK se o dono já entende; se não, traduzir ("custo por mil pessoas que viram", "% de quem clicou", "quanto custou cada cliente").
 - **Frequência boa pra Meta:** 1.5–3.0. Acima de 3.0 já satura. Acima de 4.0 vira ruído.
 - **Quando reportar perda:** não amenizar. "A campanha X queimou R$ 200 sem trazer venda" é mais útil que "a campanha X teve performance abaixo do esperado".
+
+## Quality gate — antes de declarar concluído
+
+- [ ] Números batem com os CSVs de origem (somar custo/conversões antes de reportar)
+- [ ] Comparação com a semana anterior feita (ou sinalizada como baseline)
+- [ ] Alertas ordenados: vermelho > amarelo > verde
+- [ ] Recomendações concretas: nome da campanha + valor + motivo
+- [ ] Arquivo salvo em marketing/campanhas/relatorios/<data>-relatorio.md com frontmatter

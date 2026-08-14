@@ -6,6 +6,9 @@ description: >
   o deploy, e posta o carrossel no Instagram + Facebook via Meta Graph API. Use quando o
   usuário disser "aprovar post X", "publicar o post do tema Y", "/aprovar-post X", ou quando
   quiser disparar a publicação automática de um conteúdo já criado pela skill /publicar-tema.
+version: 1.2.0
+model: "*"
+requires: ["node 20+", "git", "deploy automatico", "meta-graph-api (.env)"]
 ---
 
 # /aprovar-post — Pipeline de aprovação e publicação automática
@@ -149,3 +152,10 @@ LinkedIn:    pendente — texto pronto em legenda-linkedin.md (postar manual)
 2. **Idempotente onde possível.** Re-rodar com mesmo slug deve detectar publicação prévia (blog não-draft, PNGs já no public/) e perguntar se é pra re-postar ou só atualizar.
 3. **Falha cedo, falha alto.** Qualquer pré-requisito faltando = abortar e explicar o que falta.
 4. **Logar tudo.** Cada passo imprime o que está fazendo e o resultado.
+
+## Quality gate — antes de declarar concluído
+
+- [ ] Confirmação humana explícita obtida antes de publicar
+- [ ] Deploy validado (HTTP 200 no post e no slide-01) antes de chamar a Meta API
+- [ ] Instagram publicado antes do Facebook; falha no Insta = abortar
+- [ ] Rollback pronto: se push falhar, draft volta pra true

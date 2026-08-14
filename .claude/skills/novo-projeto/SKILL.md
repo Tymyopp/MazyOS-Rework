@@ -4,6 +4,9 @@ description: >
   Cria uma pasta de projeto nova com `CLAUDE.md` dedicado, depois de uma entrevista curta sobre
   o projeto (cliente, objetivo, entregas previstas). Use quando o usuário disser "novo projeto",
   "novo cliente", "/novo-projeto", "começar projeto pra X" ou pedir pra estruturar um trabalho novo.
+version: 1.1.0
+model: "*"
+requires: []
 ---
 
 # /novo-projeto — Pasta de projeto novo com contexto dedicado

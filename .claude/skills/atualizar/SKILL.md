@@ -5,6 +5,9 @@ description: >
   `estrategia.md`, `CLAUDE.md`, `identidade/design-guide.md`) que ficaram desatualizados em relação
   ao estado real do workspace. Use quando o usuário disser "atualiza", "/atualizar", "varre o
   projeto", ou pedir uma reconciliação geral.
+version: 1.1.0
+model: "*"
+requires: ["bash", "git"]
 ---
 
 # /atualizar — Varredura e atualização de contexto

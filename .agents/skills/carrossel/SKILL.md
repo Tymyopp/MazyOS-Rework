@@ -6,6 +6,9 @@ description: >
   Suporta carrossel texto puro, carrossel com foto IA (gerada via OpenAI) e post único.
   Use quando o usuário pedir "carrossel", "post", "conteúdo pro instagram", "criar imagem",
   "gerar foto", "post educativo", ou /carrossel.
+version: 1.2.0
+model: "*"
+requires: ["node 20+", "playwright", "openai-api (opcional)"]
 ---
 
 # /carrossel — Carrossel e posts visuais
@@ -251,3 +254,11 @@ Se sim, chamar `/publicar-tema` com o mesmo tema.
 - HTMLs: um único arquivo `carrossel.html` com todos os slides + `render.js` na mesma pasta. Inline CSS
 - Render: reutilizar `node_modules` quando possível (não rodar `npm install` em cada pasta)
 - Não repetir layout entre slides — usar variação visual
+
+## Quality gate — antes de declarar concluído
+
+- [ ] PNGs gerados em instagram/slide-01..NN.png com 1080x1350 (conferir dimensões de 1 slide)
+- [ ] legenda.md gerado automaticamente (hook + oferta + hashtags)
+- [ ] Capa segue a sequência do feed (não repetir estilo da última publicada)
+- [ ] Nenhuma foto IA com rosto identificável; prompts em inglês
+- [ ] Pasta no padrão marketing/conteudo/<tipo>-<tema>-<YYYY-MM-DD>/

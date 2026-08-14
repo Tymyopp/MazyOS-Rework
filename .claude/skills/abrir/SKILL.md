@@ -4,6 +4,9 @@ description: >
   Abre uma sessão de trabalho carregando a memória do negócio (empresa, preferências, estratégia, identidade)
   e devolve um resumo curto pro usuário. Use quando o usuário disser "abrir",
   "começar o dia", "/abrir" ou no primeiro turno de uma sessão depois do /instalar.
+version: 1.2.0
+model: "*"
+requires: ["_memoria/", "identidade/"]
 ---
 
 # /abrir — Abertura de sessão
@@ -28,11 +31,15 @@ Curto e direto. O objetivo é carregar contexto e devolver uma síntese de uma f
 [Nome do negócio] — [o que faz em 5-8 palavras]
 Foco atual: [prioridade da estratégia, em uma frase]
 Tom: [resumo de 3-4 palavras do tom de voz]
+Pendências: [N em aberto — se houver tarefas em _memoria/tarefas.md]
 
 Pronto. O que vamos fazer?
 ```
 
-4. Não listar quais arquivos foram lidos. Não confirmar leitura. Só usar o contexto.
+4. Ler `_memoria/tarefas.md` (se existir) e incluir no resumo a linha
+   `Pendências: N em aberto` com as 1-2 mais importantes.
+
+5. Não listar quais arquivos foram lidos. Não confirmar leitura. Só usar o contexto.
 
 ## Regras
 

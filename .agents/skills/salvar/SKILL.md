@@ -4,6 +4,9 @@ description: >
   Salva o trabalho do MazyOS no GitHub (commit + push). Na primeira vez configura o repositório
   remoto. Use quando o usuário disser "salvar", "salva no github", "commit", "push", "/salvar"
   ou pedir backup do trabalho.
+version: 1.2.0
+model: "*"
+requires: ["git", "github", "gh-cli (opcional)"]
 ---
 
 # /salvar — Salvar no GitHub

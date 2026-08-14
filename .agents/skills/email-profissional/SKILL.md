@@ -5,6 +5,9 @@ description: >
   Calibra o tom ao destinatário e ao objetivo do email.
   Use quando o usuário disser "escreve um email pra", "preciso mandar um email sobre",
   "como eu respondo isso", "faz um email pra [cliente/pessoa]".
+version: 1.1.0
+model: "*"
+requires: ["_memoria/"]
 ---
 
 # /email-profissional — Rascunho de Email

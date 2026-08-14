@@ -1,38 +1,26 @@
 # scripts/ — utilitários do MazyOS
 
-Scripts Node.js e Python que as skills chamam quando precisam fazer coisas fora do alcance da IA pura (gerar imagem, postar em rede social, renderizar HTML em PNG).
+Scripts Node.js e Python que as skills chamam para fazer coisas fora do alcance
+da IA pura (gerar imagem, postar em rede social, renderizar HTML em PNG).
 
-A pasta vem **vazia** — cada skill que precisa de script tem instrução de como criar (e geralmente é um único setup por integração que você vai ativar).
+## Scripts versionados
 
-## Scripts comuns
-
-Conforme você for ativando skills, isso aqui vai sendo populado. Lista do que cada skill espera encontrar:
-
-| Skill | Script esperado | O que faz |
+| Script | Uso | Dependências |
 |---|---|---|
-| `/carrossel` (com foto IA) | `gerar-imagem.js` | Gera foto realista via OpenAI API (DALL-E 3) |
-| `/carrossel` (render PNG) | `render.js` (gerado por carrossel, fica na pasta do conteúdo) | Playwright tira screenshot 1080x1350 de cada slide |
-| `/aprovar-post` | `postar-instagram.js` | Publica carrossel no Instagram via Meta Graph API |
-| `/aprovar-post` | `postar-facebook.js` | Publica carrossel no Facebook via Meta Graph API |
-| `/anuncio-google` | (nenhum — gera CSV direto) | — |
-| `/relatorio-ads` | (lê CSV exportado das plataformas) | — |
+| `gerar-imagem.js` | Gera foto IA (DALL-E 3) e salva PNG — `/carrossel` | `OPENAI_API_KEY` · Node 20+ (fetch nativo) |
+| `postar-instagram.js` | Publica carrossel no Instagram via Meta Graph API — `/aprovar-post` | `META_PAGE_ACCESS_TOKEN`, `META_IG_USER_ID`, `SITE_URL` · Node 20+ |
+| `postar-facebook.js` | Publica carrossel no Facebook via Meta Graph API — `/aprovar-post` | `META_PAGE_ACCESS_TOKEN`, `META_PAGE_ID`, `SITE_URL` · Node 20+ |
+| `render-carrossel.js` | Template padrão de render HTML → PNG 1080×1350 (as skills copiam como `render.js` para a pasta do conteúdo) | Playwright |
+| `sync-skills.sh` | Sincroniza `.claude/skills/` ↔ `.agents/skills/` | bash |
+| `validate-skills.sh` | Validação completa do sistema (frontmatter, paridade, JSON, segredos) — usada pelo CI e hooks | bash + python3 |
+| `hooks/validate-skill.sh` | Hook PostToolUse: valida após cada edição de arquivo | bash |
 
 ## Pré-requisitos comuns
 
-A maioria dos scripts depende de:
+- **Node.js 20+** (fetch nativo — scripts sem `npm install`)
+- **`.env`** na raiz — modelo em `.env.example` (copie e preencha; `.env` nunca vai pro git)
+- **Playwright** para render (HTML → PNG):
 
-**Node.js 20+** instalado na máquina
-
-**.env** na raiz do projeto com as chaves de API:
-```bash
-OPENAI_API_KEY=sk-...               # pra gerar-imagem.js
-META_PAGE_ACCESS_TOKEN=...          # pra postar-instagram.js + postar-facebook.js
-META_PAGE_ID=...
-META_IG_USER_ID=...
-SITE_URL=https://seudominio.com.br
-```
-
-**Playwright** (pra renderizar HTML em PNG):
 ```bash
 npm install playwright
 npx playwright install chromium
@@ -40,12 +28,11 @@ npx playwright install chromium
 
 ## Como o MazyOS lida com isso
 
-Quando você roda uma skill que precisa de script ausente, o Claude vai:
+Quando uma skill precisa de script ausente, o Claude detecta, pergunta se quer
+configurar agora, guia o setup das chaves e roda a skill.
 
-1. Detectar que falta o script
-2. Te perguntar se quer configurar agora
-3. Te guiar no setup das chaves de API (Meta, OpenAI, etc.)
-4. Criar o script já configurado
-5. Rodar a skill
+## Qualidade
 
-Você não precisa decorar nada. Roda a skill, segue o fluxo.
+- `./scripts/validate-skills.sh` — roda a validação completa (também no CI e
+  automaticamente após edições via hook em `.claude/settings.json`)
+- Scripts JS usam apenas fetch nativo — sem dependências, sem `npm install`

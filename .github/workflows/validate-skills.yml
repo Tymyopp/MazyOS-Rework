@@ -1,0 +1,35 @@
+name: validate-skills
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rodar validação completa
+        run: bash scripts/validate-skills.sh
+
+      - name: Checar sincronia .claude ↔ .agents
+        run: |
+          set -e
+          for f in .claude/skills/*/SKILL.md; do
+            dir=$(basename "$(dirname "$f")")
+            cmp -s "$f" ".agents/skills/$dir/SKILL.md" || {
+              echo "Divergência em $dir — rode scripts/sync-skills.sh"; exit 1; }
+          done
+          echo "OK: pastas sincronizadas"
+
+      - name: Lint de sintaxe dos scripts Node
+        run: |
+          for f in scripts/*.js; do node --check "$f"; done
+          echo "OK: sintaxe dos scripts válida"
+
+      - name: Bloquear segredos
+        run: |
+          if git ls-files | grep -qE '(^\.env$|\.pem$|\.key$|secrets\.json|credentials\.json)'; then
+            echo "ERRO: segredo versionado"; exit 1
+          fi
+          echo "OK: nenhum segredo"

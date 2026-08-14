@@ -5,6 +5,9 @@ description: >
   automatizá-las. Faz uma entrevista curta sobre o que o usuário repete toda semana, propõe
   skills concretas e cria as aprovadas em `.claude/skills/`. Use quando o usuário pedir
   "/mapear-rotinas", "criar skills personalizadas", "automatizar minhas tarefas" ou "o que dá pra automatizar".
+version: 1.1.0
+model: "*"
+requires: ["claude-code"]
 ---
 
 # /mapear-rotinas — Mapeamento de tarefas repetitivas em skills

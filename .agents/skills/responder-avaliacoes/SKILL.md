@@ -8,6 +8,9 @@ description: >
   Use quando o usuário disser "responder avaliação", "resposta pro Google",
   "tem uma avaliação nova", "me ajuda a responder essas reviews",
   "avaliação do GMB", ou colar texto/print de uma review do Google.
+version: 1.1.0
+model: "*"
+requires: ["_memoria/"]
 ---
 
 # /responder-avaliacoes — Respostas pras avaliações do Google
