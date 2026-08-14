@@ -20,6 +20,22 @@ Todas as mudanças notáveis do MazyOS.
 - Skill `/instalar`: reconhece `MazyOS-Rework`/`mazyos-rework` como nome genérico de pasta
 - `docs/guia-de-inicio.md`: suporte aponta para issues do repositório
 
+## [1.7.0] — 2026-08-13
+
+### Adicionado — integração do Instagram por link (Fases 0-2 do plano de integração)
+- **`/conectar-instagram`** — skill que conecta a conta por link de autorização (OAuth):
+  gera o link, guia a autorização, troca o code por token long-lived (~60 dias) e confirma
+- **`scripts/insta-conectar.js`** — script de conexão (fetch nativo): `conectar` (com
+  fluxo copy-paste e `--loopback`), `trocar <code>`, `renovar`, `status`, `desconectar`.
+  Valida state (CSRF), salva em `.local/insta-auth.json` (permissão 600, fora do git)
+  e nunca imprime o token completo
+- **`docs/automacao-meta-setup.md`** — guia completo de setup (Meta App em modo
+  desenvolvimento, Instagram Tester, redirect URI, .env, solução de problemas, limites)
+- **`scripts/postar-instagram.js`** — passa a ler o token de `.local/insta-auth.json`
+  (fallback: .env) com **renovação automática** se faltar <7 dias
+- **`.env.example`** — META_APP_ID, META_APP_SECRET, META_REDIRECT_URI, META_API_VERSION
+- **`/aprovar-post`** — pré-requisitos atualizados com o fluxo por link
+
 ## [1.6.0] — 2026-08-13
 
 ### Adicionado — comunidade e go-to-market

@@ -14,6 +14,8 @@ Fases de evolução definidas no benchmark contra o ecossistema global de skills
 
 **Legenda:** ✅ feito · 📦 preparado (artefatos no workspace) · ⏳ pendente
 
-> Todas as fases (A–F) estão implementadas no repositório (v1.6.0, 28 skills).
-> Próximos passos sugeridos: publicar no skills.sh e registrar plugin oficial,
-> traduzir skills para ES, e medir uso real via telemetria opt-in.
+| **G** | Integração social por link — /conectar-instagram, script OAuth, guia Meta (F0-F2) | ✅ 13/08/2026 (F0-F2) |
+| **G** | Publicação completa (Reels/Stories), /bio-instagram, agendamento, TikTok, insights (F3-F8) | ⏳ pendente |
+
+> Fases A–G: ver CHANGELOG. Próximos: F3 (Reels/Stories no /aprovar-post),
+> F5 (/bio-instagram), F6-F8 (agendamento, TikTok, insights).

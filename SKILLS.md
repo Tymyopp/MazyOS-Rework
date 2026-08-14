@@ -1,6 +1,6 @@
 # SKILLS.md — Inventário e versionamento
 
-> Manifesto central das 28 skills. Cada skill tem `version` no frontmatter;
+> Manifesto central das 29 skills. Cada skill tem `version` no frontmatter;
 > este arquivo é o índice consolidado (atualize ao criar/editar skills).
 
 | Skill | Versão | Categoria | O que faz |
@@ -32,6 +32,7 @@
 | `/weekly` | 1.0.0 | cadência |  |
 | `/experimento` | 1.0.0 | cadência |  |
 | `/agendar` | 1.0.0 | cadência |  |
+| `/conectar-instagram` | 1.0.0 | integração | conecta a conta do Instagram por link de autorização (token 60 dias, auto-renovação) |
 | `/cliente` | 1.0.0 | operação |  |
 
 ## Versionamento

@@ -15,6 +15,7 @@ da IA pura (gerar imagem, postar em rede social, renderizar HTML em PNG).
 | `validate-skills.sh` | Validação completa do sistema (frontmatter, paridade, JSON, segredos) — usada pelo CI e hooks | bash + python3 |
 | `hooks/validate-skill.sh` | Hook PostToolUse: valida após cada edição de arquivo | bash |
 | `telemetria.js` | Registro LOCAL e opt-in de uso das skills (`.local/uso.jsonl` — nunca sai da máquina) | Node 20+ |
+| `insta-conectar.js` | Conecta o Instagram por link de autorização (OAuth): gera o link, troca o code por token de 60 dias, renova e desconecta | Node 20+ · `.env` (META_APP_ID/SECRET) · ver `docs/automacao-meta-setup.md` |
 
 ## Pré-requisitos comuns
 
