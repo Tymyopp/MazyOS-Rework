@@ -19,7 +19,7 @@ com audiência e fecho venda."]
 - `audiencia/` — listas, dados, contatos da minha base
 - `dados/` — arquivos a analisar (CSV, PDF, planilha)
 - `scripts/` — utilitários (gerar imagem, postar, render)
-- `tarefas.md` — o que tá em jogo agora
+- `_memoria/tarefas.md` — o que tá em jogo agora
 
 ## Quem sou
 

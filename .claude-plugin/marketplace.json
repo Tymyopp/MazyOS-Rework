@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "MazyOS — sistema operacional do negócio: 15 skills de marketing, SEO, ads, conteúdo e operação em PT-BR.",
-    "version": "1.5.0"
+    "version": "1.6.0"
   },
   "plugins": [
     {
@@ -17,7 +17,7 @@
         "branch": "main"
       },
       "description": "MazyOS — 28 skills: marketing, SEO, GEO, ads, conteúdo, conversão e cadência operacional.",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "author": {
         "name": "mazzeoia",
         "url": "https://mazzeoia.com.br"

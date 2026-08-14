@@ -17,7 +17,7 @@ Aqui ficam todos os clientes, briefings, entregas e cobrança."]
 - `marketing/` — meu próprio conteúdo (Insta, LinkedIn, portfolio)
 - `saidas/` — emails, documentos pontuais
 - `dados/` — arquivos a analisar
-- `tarefas.md` — pipeline, prazos, próximos passos
+- `_memoria/tarefas.md` — pipeline, prazos, próximos passos
 
 ## Quem sou
 

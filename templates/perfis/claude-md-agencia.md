@@ -19,7 +19,7 @@ Aqui ficam todos os clientes, propostas, conteúdo e entregas."]
 - `marketing/` — conteúdo institucional da agência
 - `saidas/` — documentos pontuais, análises
 - `dados/` — arquivos a analisar (relatórios de cliente, exports)
-- `tarefas.md` — pipeline da agência
+- `_memoria/tarefas.md` — pipeline da agência
 
 ## Sobre a agência
 

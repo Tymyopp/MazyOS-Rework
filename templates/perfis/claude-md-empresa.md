@@ -21,7 +21,7 @@ Cada setor tem sua área, com processos, entregas e documentos."]
 - `projetos/` — projetos que envolvem mais de um setor
 - `saidas/` — documentos pontuais
 - `dados/` — arquivos a analisar
-- `tarefas.md` — o que tá em jogo agora
+- `_memoria/tarefas.md` — o que tá em jogo agora
 
 ## Sobre a empresa
 

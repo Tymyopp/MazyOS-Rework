@@ -64,6 +64,11 @@ Deixar o usuário escolher.
 
 ---
 
+## Saída
+
+Quando o email for aprovado, salvar o rascunho em `saidas/emails/<assunto-slug>-<YYYY-MM-DD>.md`
+(padrão da pasta `saidas/`).
+
 ## Regras
 
 - Tom segue `_memoria/preferencias.md`

@@ -39,3 +39,6 @@ token*.json
 *.sqlite
 *.sqlite3
 .agency/
+
+# Telemetria local (opt-in, nunca versionar)
+.local/

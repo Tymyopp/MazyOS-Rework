@@ -208,7 +208,7 @@ Se não tiver o script ainda, instruir o usuário a configurar `OPENAI_API_KEY` 
    </div>
    ```
 
-2. Criar `render.js` na mesma pasta — script Node com Playwright que abre o HTML e tira screenshot de cada `.slide` em 1080x1350. Pode reutilizar `node_modules` de uma pasta anterior (não precisa rodar `npm install` toda vez):
+2. Copiar o template versionado `scripts/render-carrossel.js` pra pasta como `render.js` (ou criar equivalente — abre o HTML e tira screenshot de cada `.slide` em 1080x1350). Pode reutilizar `node_modules` de uma pasta anterior (não precisa rodar `npm install` toda vez):
 ```bash
 NODE_PATH="<pasta-com-node_modules>/node_modules" node render.js
 ```

@@ -39,12 +39,18 @@ async function api(caminho, params) {
 }
 
 (async () => {
-  // Localiza a pasta do carrossel: marketing/conteudo/<slug>-*
-  const conteudoDir = 'marketing/conteudo';
-  if (!fs.existsSync(conteudoDir)) { console.error('Pasta marketing/conteudo não encontrada'); process.exit(1); }
-  const dirs = fs.readdirSync(conteudoDir).filter((d) => d.startsWith(slug));
-  if (!dirs.length) { console.error(`Nenhuma pasta do carrossel para "${slug}" em marketing/conteudo/`); process.exit(1); }
-  const dir = path.join(conteudoDir, dirs.sort().pop());
+  // Aceita slug ("5-erros-bolo") OU caminho completo ("marketing/conteudo/<slug>-<data>")
+  let dir;
+  if (slug.includes('/')) {
+    dir = slug;
+  } else {
+    const conteudoDir = 'marketing/conteudo';
+    if (!fs.existsSync(conteudoDir)) { console.error('Pasta marketing/conteudo não encontrada'); process.exit(1); }
+    const dirs = fs.readdirSync(conteudoDir).filter((d) => d.startsWith(slug));
+    if (!dirs.length) { console.error(`Nenhuma pasta do carrossel para "${slug}" em marketing/conteudo/`); process.exit(1); }
+    dir = path.join(conteudoDir, dirs.sort().pop());
+  }
+  if (!fs.existsSync(dir)) { console.error(`Pasta não encontrada: ${dir}`); process.exit(1); }
 
   const slides = fs.readdirSync(path.join(dir, 'instagram'))
     .filter((f) => /^slide-\d+\.png$/.test(f)).sort();

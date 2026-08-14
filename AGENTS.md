@@ -8,6 +8,8 @@ At the start of every conversation, read (when they exist and are filled):
 1. `_memoria/empresa.md` — who the user is, what the business does
 2. `_memoria/preferencias.md` — voice, style, what to avoid
 3. `_memoria/estrategia.md` — current focus, priorities, deadlines
+4. `_memoria/tarefas.md` — open tasks (report pending count in briefings)
+5. `_memoria/kpi.md`, `_memoria/clientes.md`, `_memoria/experimentos.md` — when relevant
 Use this as the basis for any answer or decision.
 
 ## Skills
@@ -22,6 +24,9 @@ in any agent that supports the standard.
 - Keep files in the folders the skills specify (marketing/, saidas/, dados/).
 - Write in Brazilian Portuguese unless the user asks otherwise.
 - Never commit `.env` or secrets. Check `.gitignore` before `git add .`.
+- Run `bash scripts/sync-skills.sh` after creating/editing a skill so `.agents/skills/`
+  stays in sync with `.claude/skills/` (canonical source).
+- Skills have quality gates: never declare a task finished until the checklist passes.
 
 ## Memory
 When the user corrects something durable ("prefiro assim", "sempre que...",

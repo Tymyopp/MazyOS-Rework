@@ -10,9 +10,10 @@ Fases de evolução definidas no benchmark contra o ecossistema global de skills
 | **C** | Arquitetura de skills — frontmatter completo, quality gates, scripts versionados, hooks, task store, CI | ✅ 13/08/2026 |
 | **D** | Profundidade de marketing — 9 skills novas (cro, landing, email-sequencia, cold-email, seo-audit, programatic-seo, analytics, video-curto, cliente) + GEO com dados | ✅ 13/08/2026 |
 | **E** | Operação e cadência — /daily, /weekly, /experimento, /agendar, KPI.md | ✅ 13/08/2026 |
-| **F** | Comunidade e go-to-market — skills.sh, plugin oficial, docs, telemetria | ⏳ pendente |
+| **F** | Comunidade e go-to-market — SKILLS.md, skills.json, docs (guia/FAQ/premium), README.es, telemetria opt-in | ✅ 13/08/2026 |
 
 **Legenda:** ✅ feito · 📦 preparado (artefatos no workspace) · ⏳ pendente
 
-> As Fases A, B e C estão implementadas no repositório. Fases D–F seguem o
-> `docs/plano-melhoria-mazyos.md` (workspace de análise).
+> Todas as fases (A–F) estão implementadas no repositório (v1.6.0, 28 skills).
+> Próximos passos sugeridos: publicar no skills.sh e registrar plugin oficial,
+> traduzir skills para ES, e medir uso real via telemetria opt-in.

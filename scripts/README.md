@@ -14,6 +14,7 @@ da IA pura (gerar imagem, postar em rede social, renderizar HTML em PNG).
 | `sync-skills.sh` | Sincroniza `.claude/skills/` ↔ `.agents/skills/` | bash |
 | `validate-skills.sh` | Validação completa do sistema (frontmatter, paridade, JSON, segredos) — usada pelo CI e hooks | bash + python3 |
 | `hooks/validate-skill.sh` | Hook PostToolUse: valida após cada edição de arquivo | bash |
+| `telemetria.js` | Registro LOCAL e opt-in de uso das skills (`.local/uso.jsonl` — nunca sai da máquina) | Node 20+ |
 
 ## Pré-requisitos comuns
 

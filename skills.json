@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schema/skills.json",
+  "name": "mazyos",
+  "displayName": "MazyOS",
+  "description": "Sistema operacional do negócio: 28 skills de marketing, SEO/GEO, ads, conteúdo, conversão e cadência operacional em PT-BR.",
+  "author": "mazzeoia",
+  "license": "MIT",
+  "homepage": "https://mazzeoia.com.br",
+  "repository": "https://github.com/mazzeoia/MazyOS",
+  "categories": ["marketing", "seo", "content", "automation", "business"],
+  "tags": ["marketing", "seo", "geo", "google-ads", "instagram", "carrossel", "pt-br"],
+  "agentSupport": ["claude-code", "codex", "cursor", "copilot-cli", "antigravity", "gemini-cli"]
+}

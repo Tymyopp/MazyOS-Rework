@@ -84,7 +84,7 @@ Gerar um resumo executivo em prosa (não só bullet points):
 | ... | ... | ... |
 ```
 
-Salvar em `estudos/analise-[nome]-[data].md` ou na pasta mais adequada pro perfil do usuário.
+Salvar em `saidas/analises/analise-[nome]-[data].md` (pasta documentada em `saidas/README.md`).
 
 Perguntar se quer exportar o resumo em HTML pra compartilhar ou apresentar.
 

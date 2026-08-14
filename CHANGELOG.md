@@ -6,6 +6,25 @@ Todas as mudanças notáveis do MazyOS.
 
 Todas as mudanças notáveis do MazyOS.
 
+## [1.6.0] — 2026-08-13
+
+### Adicionado — comunidade e go-to-market
+- **`SKILLS.md`** — manifesto central das 28 skills com versões e categorias (versionamento semver)
+- **`skills.json`** — metadata para publicação no skills.sh (Vercel): `npx skills add mazzeoia/MazyOS`
+- **`docs/guia-de-inicio.md`** — onboarding: instalação, primeira semana, rotina, armadilhas comuns
+- **`docs/FAQ.md`** — perguntas da comunidade (instalação, organização, custos)
+- **`docs/premium.md`** — modelo open source (MIT) × oferta comercial (aulas/suporte)
+- **`README.es.md`** — versão em espanhol (expansão LatAm)
+- **`scripts/telemetria.js`** — registro LOCAL e opt-in de uso (nunca sai da máquina; `.local/` ignorado pelo git)
+
+### Corrigido (auditoria geral)
+- **`/analisar-dados`** — saída padronizada para `saidas/analises/` (era `estudos/`)
+- **`/aprovar-post`** — scripts aceitam slug OU caminho completo (interface alinhada)
+- **`/carrossel`** — render referencia o template versionado `scripts/render-carrossel.js`
+- **`/email-profissional`** — saída documentada em `saidas/emails/`
+- **templates/perfis (4)** — task store atualizado para `_memoria/tarefas.md` (era `tarefas.md` na raiz)
+- **`marketing/README.md`** — estrutura completa v1.5 (emails, cro, landing, calendario, relatorios)
+
 ## [1.5.0] — 2026-08-13
 
 ### Adicionado — cadência operacional (total: 28 skills)
