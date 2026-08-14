@@ -6,6 +6,18 @@ Todas as mudanças notáveis do MazyOS.
 
 Todas as mudanças notáveis do MazyOS.
 
+## [2.1.1] — 2026-08-14
+
+### Adicionado
+- **`scripts/instalar-openwa.sh`** — bootstrap completo do OpenWA em 1 comando:
+  detecta Docker (usa compose) ou instala Node 22 local, clona, configura .env com
+  chave mestre, instala dependências, build, inicia, cria a sessão e salva o QR
+- **`docs/openwa-integracao.md`** — seção de bootstrap + nota sobre ambientes limitados
+
+### Observação (ambientes limitados/sandbox)
+- O OpenWA roda e gera QR válido em sandbox, mas processos e `node_modules` não
+  persistem entre sessões — para uso contínuo, rodar na máquina/VPS do usuário.
+
 ## [2.1.0] — 2026-08-14
 
 ### Adicionado — WhatsApp via OpenWA (gateway profissional)

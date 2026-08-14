@@ -47,6 +47,20 @@ e adiciona MCP nativo, webhooks, multi-sessão e segurança — sem custo.
 
 ---
 
+## 2.5 Bootstrap em 1 comando (recomendado)
+
+O MazyOS inclui um instalador automatizado que cuida de tudo (Node 22 local OU Docker,
+clone, .env, build, sessão e QR):
+
+```bash
+./scripts/instalar-openwa.sh                 # instala + inicia + cria sessão + QR
+./scripts/instalar-openwa.sh --qr meunegocio # re-gera o QR (expira ~20s)
+```
+
+- **Na sua máquina/VPS:** roda direto (usa Docker se tiver, senão Node 22 local).
+- **Em sandbox/ambiente limitado:** funciona, mas lembre que processos e `node_modules`
+  **não persistem** entre sessões — para uso contínuo, rode na sua máquina.
+
 ## 3. Como rodar o OpenWA (2 caminhos)
 
 ### Opção A — Docker (recomendado, 2 comandos)
@@ -142,5 +156,6 @@ no `.env` do OpenWA. Tools incluem: `ContactCheckNumber`, `MessageSendText`,
 | `/conectar-whatsapp` | ✅ skill guiada (OpenWA) — QR, confirmação, teste |
 | `/postar-whatsapp` | ✅ atualizada — canal A: OpenWA · canal B: fallback caseiro |
 | `docs/openwa-integracao.md` | ✅ este documento |
+| `scripts/instalar-openwa.sh` | ✅ bootstrap em 1 comando (Docker ou Node 22 local) |
 | `.env.example` | ✅ `OPENWA_URL`, `OPENWA_API_KEY`, `OPENWA_ENGINE` |
 | Script caseiro (`whatsapp-servico.js`) | mantido como fallback (não recomendado) |
