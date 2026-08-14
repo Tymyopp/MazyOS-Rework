@@ -17,7 +17,9 @@ Skill de comunicação: conecta o CRM (clientes) ao canal mais usado do negócio
 
 ## Dependências
 
-- **Canal:** WA MCP (Baileys ou Meta Cloud API) via `/conectar-mcp` — ou `WHATSAPP_TOKEN` no `.env`
+- **Canal A (recomendado):** gateway **OpenWA** via `/conectar-whatsapp` —
+  `scripts/whatsapp-openwa.js` (ou MCP nativo do OpenWA, 51 tools)
+- **Canal B (fallback):** WA MCP (Baileys/Cloud API) via `/conectar-mcp` ou `WHATSAPP_TOKEN`
 - **CRM:** `_memoria/clientes.md` (nomes, contatos, "seguir em")
 - **Tom:** `_memoria/preferencias.md`
 
@@ -39,9 +41,13 @@ Perguntar (ou inferir):
 
 ### Passo 3 — Enviar
 
-Via MCP (recomendado): chamar o tool do servidor (ex.: `send_message`) com o número
-no formato internacional (+55...). Via script: `node scripts/whatsapp-enviar.js` (se
-criado).
+**Canal A — OpenWA (recomendado):**
+```bash
+node --env-file=.env scripts/whatsapp-openwa.js enviar <sessao> <numero> "<texto>"
+```
+Ou via MCP nativo do OpenWA (`MessageSendText`) se `.mcp.json` estiver ativo.
+
+**Canal B — WA MCP/Cloud API:** chamar o tool do servidor (ex.: `send_message`).
 
 **CHECKPOINT:** aprovação humana do texto ANTES do envio — sempre.
 
@@ -60,7 +66,7 @@ criado).
 
 ## Quality gate — antes de declarar concluído
 
-- [ ] Canal configurado (MCP testado ou WHATSAPP_TOKEN)
+- [ ] Canal configurado (OpenWA testado / MCP testado / WHATSAPP_TOKEN)
 - [ ] Texto aprovado pelo usuário
 - [ ] Número validado (formato internacional)
 - [ ] Envio confirmado (status da API)

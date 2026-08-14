@@ -6,6 +6,23 @@ Todas as mudanças notáveis do MazyOS.
 
 Todas as mudanças notáveis do MazyOS.
 
+## [2.1.0] — 2026-08-14
+
+### Adicionado — WhatsApp via OpenWA (gateway profissional)
+- **`docs/openwa-integracao.md`** — análise completa do OpenWA (v0.18.0, MIT) vs a
+  forma anterior (script Baileys caseiro) + decisão + guia de execução (Docker/Node 22)
+- **`scripts/whatsapp-openwa.js`** — cliente REST do gateway: criar-sessao, qr, status,
+  listar, enviar, apagar (fetch nativo, sem dependências)
+- **`/conectar-whatsapp`** — skill guiada: pré-checagem → criar sessão → QR → ready → teste
+- **`/postar-whatsapp`** — atualizada: canal A = OpenWA (recomendado), canal B = fallback
+- **`.env.example`** — OPENWA_URL, OPENWA_API_KEY, OPENWA_ENGINE
+- **MCP nativo do OpenWA** documentado (`POST /mcp`, 51 tools, read-only por padrão)
+
+### Por quê (resumo)
+- QR do fluxo anterior expirava a cada ~20s e o processo caseiro era frágil (morria no ambiente)
+- OpenWA: sessões persistentes com auto-start, engine `wwjs` (menor risco de ban),
+  webhooks HMAC, multi-sessão, API keys com papéis, dashboard, 51 tools MCP
+
 ## [2.0.0] — 2026-08-13
 
 ### Adicionado — Fase H: Automação Total (9 skills novas — total: 42)

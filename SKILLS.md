@@ -1,6 +1,6 @@
 # SKILLS.md — Inventário e versionamento
 
-> Manifesto central das 42 skills. Cada skill tem `version` no frontmatter;
+> Manifesto central das 43 skills. Cada skill tem `version` no frontmatter;
 > este arquivo é o índice consolidado (atualize ao criar/editar skills).
 
 | Skill | Versão | Categoria | O que faz |
@@ -36,6 +36,7 @@
 | `/postar-tiktok` | 1.0.0 | integração | publica vídeo no TikTok (Content Posting API) com status |
 | `/agendar-posts` | 1.0.0 | integração | agenda publicações reais (Postiz ou Post for Me) a partir do calendário |
 | `/bio-instagram` | 1.0.0 | integração | bio otimizada (≤150 chars, 3 opções), destaques, link na bio e grade do feed — colagem manual |
+| `/conectar-whatsapp` | 1.0.0 | integração | conecta o WhatsApp via gateway OpenWA (QR, status, teste) |
 | `/conectar-mcp` | 1.0.0 | integração | conecta e testa servidores MCP (perfis starter/avancado/agencia) |
 | `/postar-whatsapp` | 1.0.0 | integração | envia mensagens pelo WhatsApp (Cloud API/WA MCP) + follow-up do CRM |
 | `/postar-linkedin` | 1.0.0 | integração | publica no LinkedIn via OAuth oficial (fim do LinkedIn manual) |

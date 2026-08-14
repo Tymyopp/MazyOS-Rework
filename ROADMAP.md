@@ -19,6 +19,7 @@ Fases de evolução definidas no benchmark contra o ecossistema global de skills
 | **G** | Agendamento real (/agendar-posts), TikTok (/postar-tiktok), insights (/insta-insights) (F6-F8) | ✅ 13/08/2026 |
 
 | **H** | Automação total — MCPs (catálogo + /conectar-mcp), WhatsApp/LinkedIn/YouTube, comentários, caixa social, cross-post, cron/n8n (nível 3), insights unificados | ✅ 13/08/2026 |
+| **I** | WhatsApp via OpenWA — gateway profissional (QR estável, wwjs, MCP 51 tools), /conectar-whatsapp | ✅ 14/08/2026 |
 
 > Fases A–H implementadas (v2.0.0, 42 skills). Próximos passos possíveis: tradução
 > das skills para ES, publicar no skills.sh/plugin oficial, telemetria em uso real.

@@ -159,6 +159,7 @@ Docs: `docs/automacao-meta-setup.md` (Meta), `docs/tiktok-setup.md` (TikTok),
 
 Skills da Fase H — conexão e autonomia:
 
+- **/conectar-whatsapp** — conecta o WhatsApp via gateway OpenWA (QR estável, engine wwjs, MCP nativo)
 - **/conectar-mcp** — detecta, ativa e testa servidores MCP (perfis starter/avancado/agencia)
 - **/postar-whatsapp** — mensagens e follow-up do CRM pelo WhatsApp (Cloud API/WA MCP)
 - **/postar-linkedin** — publicação via OAuth oficial (perfil/página)
