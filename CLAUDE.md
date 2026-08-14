@@ -113,3 +113,5 @@ Quando o usuário pedir skill nova:
 4. Se a skill precisar de arquivos de apoio (templates, exemplos),
    criar dentro da pasta da skill
 5. Seguir o fluxo da skill-creator nativa do Claude Code
+6. Após criar ou editar uma skill local, rodar `scripts/sync-skills.sh` pra manter
+   `.agents/skills/` (Codex, Cursor, Copilot, Antigravity, Gemini) em sincronia

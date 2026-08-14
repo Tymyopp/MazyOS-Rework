@@ -2,6 +2,16 @@
 
 Todas as mudanças notáveis do MazyOS.
 
+## [1.2.0] — 2026-08-13
+
+### Adicionado
+- `AGENTS.md` — contexto carregado automaticamente por Codex, Cursor, GitHub Copilot CLI, Google Antigravity e Gemini CLI
+- `.agents/skills/` — as 15 skills no local universal do padrão Agent Skills (agentskills.io)
+- `.claude-plugin/marketplace.json` — instalação via `/plugin marketplace add mazzeoia/MazyOS`
+- `README.en.md` — versão em inglês
+- `scripts/sync-skills.sh` — sincroniza `.claude/skills/` ↔ `.agents/skills/`
+- `CLAUDE.md` — criação de skill agora exige rodar o sync
+
 ## [1.1.0] — 2026-08-13
 
 ### Adicionado

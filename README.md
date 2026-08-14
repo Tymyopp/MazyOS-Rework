@@ -2,7 +2,7 @@
 
 > O sistema operacional do seu negócio dentro do Claude Code.
 
-**Status:** ativo · **Licença:** [MIT](LICENSE) · **Skills:** 15 · **Idioma:** PT-BR · **Roadmap:** [ROADMAP.md](ROADMAP.md) · **Contribua:** [CONTRIBUTING.md](CONTRIBUTING.md)
+![Licença](https://img.shields.io/badge/licença-MIT-green) · **15 skills** · [Agent Skills standard](https://agentskills.io) · PT-BR ([EN](README.en.md)) · [Roadmap](ROADMAP.md) · [Contribua](CONTRIBUTING.md)
 
 Você acaba de instalar o MazyOS. Em alguns minutos, sua empresa vai
 ter uma memória própria, uma identidade visual aplicada em tudo que
@@ -38,6 +38,24 @@ code .
 ```
 
 Na janela do VS Code que abrir: terminal integrado → `claude` → `/instalar`.
+
+### Pelo plugin (Claude Code)
+
+```
+/plugin marketplace add mazzeoia/MazyOS
+/plugin install mazyos@mazyos
+```
+
+Instala as 15 skills sem clonar manualmente.
+
+### Em outros agentes
+
+O MazyOS segue o padrão aberto **Agent Skills** ([agentskills.io](https://agentskills.io)):
+as mesmas skills vivem em `.agents/skills/` e funcionam em **Codex, Cursor, GitHub
+Copilot CLI, Google Antigravity e Gemini CLI**. O contexto do negócio é carregado
+automaticamente por esses agentes via `AGENTS.md` (o Claude Code lê o `CLAUDE.md`).
+
+Manter as duas pastas de skills sincronizadas: `./scripts/sync-skills.sh`
 
 ---
 
